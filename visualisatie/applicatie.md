@@ -1,2 +1,2 @@
-[ExecuteButton](./graphics/vs_execute.png)
+(./graphics/vs_execute.png)
 

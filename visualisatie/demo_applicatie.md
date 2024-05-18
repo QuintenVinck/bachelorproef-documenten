@@ -4,8 +4,8 @@
 https://github.com/QuintenVinck/bachelorproef-documenten/assets/79400592/646efcd8-ba8a-4e59-ae46-5c1f9cda24c2
 
 <br>
-## Overzicht met afbeeldingen
 
+## Overzicht met afbeeldingen
 
 ### Knop die script uitvoert in de applicatie
 ![vs_execute](https://github.com/QuintenVinck/bachelorproef-documenten/assets/79400592/341c9314-7fa9-4a1b-a2a2-289e614abcfd)

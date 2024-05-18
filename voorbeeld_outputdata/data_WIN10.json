@@ -1,0 +1,695 @@
+{
+    "ComputerName":  "WIN10",
+    "date":  "2024-05-18-11_54",
+    "ipconfigInfo":  {
+                         "IPAddress":  "172.30.10.100",
+                         "SubnetMask":  "255.255.0.0",
+                         "DefaultGateway":  "172.30.255.254",
+                         "DnsSuffix":  [
+                                           "insecure.cyb",
+                                           ""
+                                       ]
+                     },
+    "Domain":  {
+                   "value":  "insecure.cyb",
+                   "PSComputerName":  "WIN10",
+                   "RunspaceId":  "bf3546ba-5a08-4829-8a86-809039e9354a",
+                   "PSShowComputerName":  true
+               },
+    "computerInfo":  {
+                         "WindowsBuildLabEx":  "19041.1.amd64fre.vb_release.191206-1406",
+                         "WindowsCurrentVersion":  "6.3",
+                         "WindowsVersion":  "2009",
+                         "OsName":  "Microsoft Windows 10 Enterprise Evaluation",
+                         "OsVersion":  "10.0.19044"
+                     },
+    "firewallProfiles":  {
+                             "DomainProfile":  false,
+                             "PrivateProfile":  true,
+                             "PublicProfile":  false,
+                             "PSComputerName":  "WIN10",
+                             "RunspaceId":  "bf3546ba-5a08-4829-8a86-809039e9354a",
+                             "PSShowComputerName":  true
+                         },
+    "ListeningPorts":  {
+                           "value":  [
+                                         {
+                                             "LocalAddress":  "::",
+                                             "LocalPort":  49671,
+                                             "Process":  "svchost"
+                                         },
+                                         {
+                                             "LocalAddress":  "::",
+                                             "LocalPort":  49670,
+                                             "Process":  "services"
+                                         },
+                                         {
+                                             "LocalAddress":  "::",
+                                             "LocalPort":  49669,
+                                             "Process":  "spoolsv"
+                                         },
+                                         {
+                                             "LocalAddress":  "::",
+                                             "LocalPort":  49668,
+                                             "Process":  "lsass"
+                                         },
+                                         {
+                                             "LocalAddress":  "::",
+                                             "LocalPort":  49667,
+                                             "Process":  "svchost"
+                                         },
+                                         {
+                                             "LocalAddress":  "::",
+                                             "LocalPort":  49666,
+                                             "Process":  "svchost"
+                                         },
+                                         {
+                                             "LocalAddress":  "::",
+                                             "LocalPort":  49665,
+                                             "Process":  "wininit"
+                                         },
+                                         {
+                                             "LocalAddress":  "::",
+                                             "LocalPort":  49664,
+                                             "Process":  "lsass"
+                                         },
+                                         {
+                                             "LocalAddress":  "::",
+                                             "LocalPort":  47001,
+                                             "Process":  "System"
+                                         },
+                                         {
+                                             "LocalAddress":  "::",
+                                             "LocalPort":  5985,
+                                             "Process":  "System"
+                                         },
+                                         {
+                                             "LocalAddress":  "::",
+                                             "LocalPort":  5357,
+                                             "Process":  "System"
+                                         },
+                                         {
+                                             "LocalAddress":  "::",
+                                             "LocalPort":  3389,
+                                             "Process":  "svchost"
+                                         },
+                                         {
+                                             "LocalAddress":  "::",
+                                             "LocalPort":  445,
+                                             "Process":  "System"
+                                         },
+                                         {
+                                             "LocalAddress":  "::",
+                                             "LocalPort":  135,
+                                             "Process":  "svchost"
+                                         },
+                                         {
+                                             "LocalAddress":  "::",
+                                             "LocalPort":  22,
+                                             "Process":  "sshd"
+                                         },
+                                         {
+                                             "LocalAddress":  "0.0.0.0",
+                                             "LocalPort":  49671,
+                                             "Process":  "svchost"
+                                         },
+                                         {
+                                             "LocalAddress":  "0.0.0.0",
+                                             "LocalPort":  49670,
+                                             "Process":  "services"
+                                         },
+                                         {
+                                             "LocalAddress":  "0.0.0.0",
+                                             "LocalPort":  49669,
+                                             "Process":  "spoolsv"
+                                         },
+                                         {
+                                             "LocalAddress":  "0.0.0.0",
+                                             "LocalPort":  49668,
+                                             "Process":  "lsass"
+                                         },
+                                         {
+                                             "LocalAddress":  "0.0.0.0",
+                                             "LocalPort":  49667,
+                                             "Process":  "svchost"
+                                         },
+                                         {
+                                             "LocalAddress":  "0.0.0.0",
+                                             "LocalPort":  49666,
+                                             "Process":  "svchost"
+                                         },
+                                         {
+                                             "LocalAddress":  "0.0.0.0",
+                                             "LocalPort":  49665,
+                                             "Process":  "wininit"
+                                         },
+                                         {
+                                             "LocalAddress":  "0.0.0.0",
+                                             "LocalPort":  49664,
+                                             "Process":  "lsass"
+                                         },
+                                         {
+                                             "LocalAddress":  "0.0.0.0",
+                                             "LocalPort":  5040,
+                                             "Process":  "svchost"
+                                         },
+                                         {
+                                             "LocalAddress":  "0.0.0.0",
+                                             "LocalPort":  3389,
+                                             "Process":  "svchost"
+                                         },
+                                         {
+                                             "LocalAddress":  "172.30.10.100",
+                                             "LocalPort":  139,
+                                             "Process":  "System"
+                                         },
+                                         {
+                                             "LocalAddress":  "169.254.232.3",
+                                             "LocalPort":  139,
+                                             "Process":  "System"
+                                         },
+                                         {
+                                             "LocalAddress":  "0.0.0.0",
+                                             "LocalPort":  135,
+                                             "Process":  "svchost"
+                                         },
+                                         {
+                                             "LocalAddress":  "0.0.0.0",
+                                             "LocalPort":  22,
+                                             "Process":  "sshd"
+                                         }
+                                     ],
+                           "Count":  29
+                       },
+    "EstablishedConnections":  [
+                                   {
+                                       "LocalPort":  5985,
+                                       "RemoteHostName":  "win10.insecure.cyb",
+                                       "RemotePort":  1509,
+                                       "ProcessName":  null,
+                                       "CreationTime":  "/Date(1713951634000)/"
+                                   },
+                                   {
+                                       "LocalPort":  5985,
+                                       "RemoteHostName":  "win10.insecure.cyb",
+                                       "RemotePort":  1508,
+                                       "ProcessName":  null,
+                                       "CreationTime":  "/Date(1713951633000)/"
+                                   },
+                                   {
+                                       "LocalPort":  5985,
+                                       "RemoteHostName":  "win10.insecure.cyb",
+                                       "RemotePort":  1506,
+                                       "ProcessName":  null,
+                                       "CreationTime":  "/Date(1713951632000)/"
+                                   },
+                                   {
+                                       "LocalPort":  1509,
+                                       "RemoteHostName":  "win10.insecure.cyb",
+                                       "RemotePort":  5985,
+                                       "ProcessName":  "C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\PowerShell_ISE.exe",
+                                       "CreationTime":  "/Date(1713951634000)/"
+                                   },
+                                   {
+                                       "LocalPort":  1508,
+                                       "RemoteHostName":  "win10.insecure.cyb",
+                                       "RemotePort":  5985,
+                                       "ProcessName":  "C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\PowerShell_ISE.exe",
+                                       "CreationTime":  "/Date(1713951633000)/"
+                                   },
+                                   {
+                                       "LocalPort":  1506,
+                                       "RemoteHostName":  "win10.insecure.cyb",
+                                       "RemotePort":  5985,
+                                       "ProcessName":  "C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\PowerShell_ISE.exe",
+                                       "CreationTime":  "/Date(1713951632000)/"
+                                   },
+                                   {
+                                       "LocalPort":  1473,
+                                       "RemoteHostName":  "DC",
+                                       "RemotePort":  9389,
+                                       "ProcessName":  "C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\PowerShell_ISE.exe",
+                                       "CreationTime":  "/Date(1713951526000)/"
+                                   },
+                                   {
+                                       "LocalPort":  1381,
+                                       "RemoteHostName":  "a2-21-17-228.deploy.static.akamaitechnologies.com",
+                                       "RemotePort":  443,
+                                       "ProcessName":  "C:\\Program Files\\WindowsApps\\Microsoft.WindowsStore_11910.1002.5.0_x64__8wekyb3d8bbwe\\WinStore.App.exe",
+                                       "CreationTime":  "/Date(1713950019000)/"
+                                   },
+                                   {
+                                       "LocalPort":  1380,
+                                       "RemoteHostName":  "a2-21-17-228.deploy.static.akamaitechnologies.com",
+                                       "RemotePort":  443,
+                                       "ProcessName":  "C:\\Program Files\\WindowsApps\\Microsoft.WindowsStore_11910.1002.5.0_x64__8wekyb3d8bbwe\\WinStore.App.exe",
+                                       "CreationTime":  "/Date(1713950012000)/"
+                                   },
+                                   {
+                                       "LocalPort":  1379,
+                                       "RemoteHostName":  "a2-21-17-228.deploy.static.akamaitechnologies.com",
+                                       "RemotePort":  443,
+                                       "ProcessName":  "C:\\Program Files\\WindowsApps\\Microsoft.WindowsStore_11910.1002.5.0_x64__8wekyb3d8bbwe\\WinStore.App.exe",
+                                       "CreationTime":  "/Date(1713950012000)/"
+                                   },
+                                   {
+                                       "LocalPort":  1378,
+                                       "RemoteHostName":  "a2-21-17-228.deploy.static.akamaitechnologies.com",
+                                       "RemotePort":  443,
+                                       "ProcessName":  "C:\\Program Files\\WindowsApps\\Microsoft.WindowsStore_11910.1002.5.0_x64__8wekyb3d8bbwe\\WinStore.App.exe",
+                                       "CreationTime":  "/Date(1713950010000)/"
+                                   },
+                                   {
+                                       "LocalPort":  1377,
+                                       "RemoteHostName":  "a2-21-17-228.deploy.static.akamaitechnologies.com",
+                                       "RemotePort":  443,
+                                       "ProcessName":  "C:\\Program Files\\WindowsApps\\Microsoft.WindowsStore_11910.1002.5.0_x64__8wekyb3d8bbwe\\WinStore.App.exe",
+                                       "CreationTime":  "/Date(1713950010000)/"
+                                   },
+                                   {
+                                       "LocalPort":  1376,
+                                       "RemoteHostName":  "a2-21-17-228.deploy.static.akamaitechnologies.com",
+                                       "RemotePort":  443,
+                                       "ProcessName":  "C:\\Program Files\\WindowsApps\\Microsoft.WindowsStore_11910.1002.5.0_x64__8wekyb3d8bbwe\\WinStore.App.exe",
+                                       "CreationTime":  "/Date(1713950010000)/"
+                                   },
+                                   {
+                                       "LocalPort":  1375,
+                                       "RemoteHostName":  "a23-55-97-153.deploy.static.akamaitechnologies.com",
+                                       "RemotePort":  443,
+                                       "ProcessName":  "C:\\Program Files\\WindowsApps\\Microsoft.WindowsStore_11910.1002.5.0_x64__8wekyb3d8bbwe\\WinStore.App.exe",
+                                       "CreationTime":  "/Date(1713950008000)/"
+                                   },
+                                   {
+                                       "LocalPort":  1374,
+                                       "RemoteHostName":  "a23-55-97-153.deploy.static.akamaitechnologies.com",
+                                       "RemotePort":  443,
+                                       "ProcessName":  "C:\\Program Files\\WindowsApps\\Microsoft.WindowsStore_11910.1002.5.0_x64__8wekyb3d8bbwe\\WinStore.App.exe",
+                                       "CreationTime":  "/Date(1713950008000)/"
+                                   },
+                                   {
+                                       "LocalPort":  1373,
+                                       "RemoteHostName":  "a23-55-97-153.deploy.static.akamaitechnologies.com",
+                                       "RemotePort":  443,
+                                       "ProcessName":  "C:\\Program Files\\WindowsApps\\Microsoft.WindowsStore_11910.1002.5.0_x64__8wekyb3d8bbwe\\WinStore.App.exe",
+                                       "CreationTime":  "/Date(1713950008000)/"
+                                   },
+                                   {
+                                       "LocalPort":  1372,
+                                       "RemoteHostName":  "a23-55-97-153.deploy.static.akamaitechnologies.com",
+                                       "RemotePort":  443,
+                                       "ProcessName":  "C:\\Program Files\\WindowsApps\\Microsoft.WindowsStore_11910.1002.5.0_x64__8wekyb3d8bbwe\\WinStore.App.exe",
+                                       "CreationTime":  "/Date(1713950008000)/"
+                                   },
+                                   {
+                                       "LocalPort":  1371,
+                                       "RemoteHostName":  "a23-55-97-153.deploy.static.akamaitechnologies.com",
+                                       "RemotePort":  443,
+                                       "ProcessName":  "C:\\Program Files\\WindowsApps\\Microsoft.WindowsStore_11910.1002.5.0_x64__8wekyb3d8bbwe\\WinStore.App.exe",
+                                       "CreationTime":  "/Date(1713950008000)/"
+                                   },
+                                   {
+                                       "LocalPort":  1370,
+                                       "RemoteHostName":  "a23-55-97-153.deploy.static.akamaitechnologies.com",
+                                       "RemotePort":  443,
+                                       "ProcessName":  "C:\\Program Files\\WindowsApps\\Microsoft.WindowsStore_11910.1002.5.0_x64__8wekyb3d8bbwe\\WinStore.App.exe",
+                                       "CreationTime":  "/Date(1713950008000)/"
+                                   },
+                                   {
+                                       "LocalPort":  1364,
+                                       "RemoteHostName":  "a2-21-17-228.deploy.static.akamaitechnologies.com",
+                                       "RemotePort":  443,
+                                       "ProcessName":  "C:\\Program Files\\WindowsApps\\Microsoft.WindowsStore_11910.1002.5.0_x64__8wekyb3d8bbwe\\WinStore.App.exe",
+                                       "CreationTime":  "/Date(1713950004000)/"
+                                   },
+                                   {
+                                       "LocalPort":  1363,
+                                       "RemoteHostName":  "a2-21-17-228.deploy.static.akamaitechnologies.com",
+                                       "RemotePort":  443,
+                                       "ProcessName":  "C:\\Program Files\\WindowsApps\\Microsoft.WindowsStore_11910.1002.5.0_x64__8wekyb3d8bbwe\\WinStore.App.exe",
+                                       "CreationTime":  "/Date(1713950004000)/"
+                                   },
+                                   {
+                                       "LocalPort":  1362,
+                                       "RemoteHostName":  "a2-21-17-228.deploy.static.akamaitechnologies.com",
+                                       "RemotePort":  443,
+                                       "ProcessName":  "C:\\Program Files\\WindowsApps\\Microsoft.WindowsStore_11910.1002.5.0_x64__8wekyb3d8bbwe\\WinStore.App.exe",
+                                       "CreationTime":  "/Date(1713950004000)/"
+                                   },
+                                   {
+                                       "LocalPort":  1202,
+                                       "RemoteHostName":  null,
+                                       "RemotePort":  443,
+                                       "ProcessName":  "C:\\Windows\\system32\\svchost.exe",
+                                       "CreationTime":  "/Date(1713949708000)/"
+                                   }
+                               ],
+    "roleInfo":  {
+                     "isDomainController":  false,
+                     "isIISInstalled":  null,
+                     "isDNSInstalled":  null,
+                     "isDHCPInstalled":  null,
+                     "isFileServerInstalled":  null,
+                     "isADCSInstalled":  null,
+                     "isRDSInstalled":  null,
+                     "PSComputerName":  "WIN10",
+                     "RunspaceId":  "bf3546ba-5a08-4829-8a86-809039e9354a",
+                     "PSShowComputerName":  true
+                 },
+    "infoDC":  {
+                   "dcInfo":  null,
+                   "PSComputerName":  "WIN10",
+                   "RunspaceId":  "bf3546ba-5a08-4829-8a86-809039e9354a",
+                   "PSShowComputerName":  true
+               },
+    "infoIIS":  {
+                    "iisInfo":  null,
+                    "iisInfo2":  null,
+                    "PSComputerName":  "WIN10",
+                    "RunspaceId":  "bf3546ba-5a08-4829-8a86-809039e9354a",
+                    "PSShowComputerName":  true
+                },
+    "infoDNS":  {
+                    "dnsSetting":  null,
+                    "dnsZone":  null,
+                    "dnsCache":  null,
+                    "dnsResponseRateLimit":  null,
+                    "dnsResponseRateLimitException":  null,
+                    "dnsGlobalQueryBlockList":  null,
+                    "dnsEdns":  null,
+                    "dnsForwarder":  null,
+                    "dnsScavenging":  null,
+                    "dnsClientSubnet":  null,
+                    "PSComputerName":  "WIN10",
+                    "RunspaceId":  "bf3546ba-5a08-4829-8a86-809039e9354a",
+                    "PSShowComputerName":  true
+                },
+    "infoDhcp":  {
+                     "dhcp1":  null,
+                     "dhcp2":  null,
+                     "dhcp3":  null,
+                     "PSComputerName":  "WIN10",
+                     "RunspaceId":  "bf3546ba-5a08-4829-8a86-809039e9354a",
+                     "PSShowComputerName":  true
+                 },
+    "infoFs":  {
+                   "fileserver1":  [
+                                       {
+                                           "AvailabilityType":  {
+                                                                    "value":  0,
+                                                                    "Value":  "NonClustered"
+                                                                },
+                                           "CachingMode":  {
+                                                               "value":  1,
+                                                               "Value":  "Manual"
+                                                           },
+                                           "CATimeout":  0,
+                                           "CompressData":  null,
+                                           "ConcurrentUserLimit":  0,
+                                           "ContinuouslyAvailable":  false,
+                                           "CurrentUsers":  0,
+                                           "Description":  "Remote Admin",
+                                           "EncryptData":  false,
+                                           "FolderEnumerationMode":  {
+                                                                         "value":  1,
+                                                                         "Value":  "Unrestricted"
+                                                                     },
+                                           "IdentityRemoting":  false,
+                                           "Infrastructure":  false,
+                                           "LeasingMode":  {
+                                                               "value":  0,
+                                                               "Value":  "Full"
+                                                           },
+                                           "Name":  "ADMIN$",
+                                           "Path":  "C:\\Windows",
+                                           "Scoped":  false,
+                                           "ScopeName":  "*",
+                                           "SecurityDescriptor":  "O:SYG:SYD:(A;;GA;;;BA)(A;;GA;;;BO)(A;;GA;;;IU)",
+                                           "ShadowCopy":  false,
+                                           "ShareState":  {
+                                                              "value":  1,
+                                                              "Value":  "Online"
+                                                          },
+                                           "ShareType":  {
+                                                             "value":  0,
+                                                             "Value":  "FileSystemDirectory"
+                                                         },
+                                           "SmbInstance":  {
+                                                               "value":  0,
+                                                               "Value":  "Default"
+                                                           },
+                                           "Special":  true,
+                                           "Temporary":  false,
+                                           "Volume":  "\\\\?\\Volume{98c3296a-b38f-459d-bfb0-08aa634af717}\\"
+                                       },
+                                       {
+                                           "AvailabilityType":  {
+                                                                    "value":  0,
+                                                                    "Value":  "NonClustered"
+                                                                },
+                                           "CachingMode":  {
+                                                               "value":  1,
+                                                               "Value":  "Manual"
+                                                           },
+                                           "CATimeout":  0,
+                                           "CompressData":  null,
+                                           "ConcurrentUserLimit":  0,
+                                           "ContinuouslyAvailable":  false,
+                                           "CurrentUsers":  0,
+                                           "Description":  "Default share",
+                                           "EncryptData":  false,
+                                           "FolderEnumerationMode":  {
+                                                                         "value":  1,
+                                                                         "Value":  "Unrestricted"
+                                                                     },
+                                           "IdentityRemoting":  false,
+                                           "Infrastructure":  false,
+                                           "LeasingMode":  {
+                                                               "value":  0,
+                                                               "Value":  "Full"
+                                                           },
+                                           "Name":  "C$",
+                                           "Path":  "C:\\",
+                                           "Scoped":  false,
+                                           "ScopeName":  "*",
+                                           "SecurityDescriptor":  "O:SYG:SYD:(A;;GA;;;BA)(A;;GA;;;BO)(A;;GA;;;IU)",
+                                           "ShadowCopy":  false,
+                                           "ShareState":  {
+                                                              "value":  1,
+                                                              "Value":  "Online"
+                                                          },
+                                           "ShareType":  {
+                                                             "value":  0,
+                                                             "Value":  "FileSystemDirectory"
+                                                         },
+                                           "SmbInstance":  {
+                                                               "value":  0,
+                                                               "Value":  "Default"
+                                                           },
+                                           "Special":  true,
+                                           "Temporary":  false,
+                                           "Volume":  "\\\\?\\Volume{98c3296a-b38f-459d-bfb0-08aa634af717}\\"
+                                       },
+                                       {
+                                           "AvailabilityType":  {
+                                                                    "value":  0,
+                                                                    "Value":  "NonClustered"
+                                                                },
+                                           "CachingMode":  {
+                                                               "value":  1,
+                                                               "Value":  "Manual"
+                                                           },
+                                           "CATimeout":  0,
+                                           "CompressData":  null,
+                                           "ConcurrentUserLimit":  0,
+                                           "ContinuouslyAvailable":  false,
+                                           "CurrentUsers":  0,
+                                           "Description":  "Remote IPC",
+                                           "EncryptData":  false,
+                                           "FolderEnumerationMode":  {
+                                                                         "value":  1,
+                                                                         "Value":  "Unrestricted"
+                                                                     },
+                                           "IdentityRemoting":  false,
+                                           "Infrastructure":  false,
+                                           "LeasingMode":  {
+                                                               "value":  0,
+                                                               "Value":  "Full"
+                                                           },
+                                           "Name":  "IPC$",
+                                           "Path":  "",
+                                           "Scoped":  false,
+                                           "ScopeName":  "*",
+                                           "SecurityDescriptor":  "O:SYG:SYD:(A;;GA;;;BA)(A;;GA;;;BO)(A;;GA;;;IU)",
+                                           "ShadowCopy":  false,
+                                           "ShareState":  {
+                                                              "value":  1,
+                                                              "Value":  "Online"
+                                                          },
+                                           "ShareType":  {
+                                                             "value":  3,
+                                                             "Value":  "InterprocessCommunication"
+                                                         },
+                                           "SmbInstance":  {
+                                                               "value":  0,
+                                                               "Value":  "Default"
+                                                           },
+                                           "Special":  true,
+                                           "Temporary":  false,
+                                           "Volume":  null
+                                       }
+                                   ],
+                   "fileserver2":  {
+                                       "ObjectId":  "{1}\\\\WIN10\\root/Microsoft/Windows/Storage/Providers_v2\\WSP_FileServer.ObjectId='{7472d5ca-57a4-11ee-8bbe-806e6f6e6963}:FS:smb|win10.insecure.cyb'",
+                                       "PassThroughClass":  null,
+                                       "PassThroughIds":  null,
+                                       "PassThroughNamespace":  null,
+                                       "PassThroughServer":  null,
+                                       "UniqueId":  "smb|win10.insecure.cyb",
+                                       "FileSharingProtocols":  "SMB",
+                                       "FileSharingProtocolVersions":  [
+                                                                           "SMB2",
+                                                                           "SMB3"
+                                                                       ],
+                                       "FriendlyName":  "win10",
+                                       "HealthStatus":  "Healthy",
+                                       "HostNames":  [
+                                                         "win10.insecure.cyb"
+                                                     ],
+                                       "OperationalStatus":  "OK",
+                                       "OtherOperationalStatusDescription":  null,
+                                       "SupportsContinuouslyAvailableFileShare":  false,
+                                       "SupportsFileShareCreation":  true
+                                   },
+                   "fileserver3":  {
+                                       "AnnounceComment":  "",
+                                       "AnnounceServer":  false,
+                                       "AsynchronousCredits":  64,
+                                       "AuditSmb1Access":  false,
+                                       "AutoDisconnectTimeout":  15,
+                                       "AutoShareServer":  true,
+                                       "AutoShareWorkstation":  true,
+                                       "CachedOpenLimit":  10,
+                                       "DisableSmbEncryptionOnSecureConnection":  null,
+                                       "DurableHandleV2TimeoutInSeconds":  180,
+                                       "EnableAuthenticateUserSharing":  false,
+                                       "EnableDownlevelTimewarp":  false,
+                                       "EnableForcedLogoff":  true,
+                                       "EnableLeasing":  true,
+                                       "EnableMultiChannel":  true,
+                                       "EnableOplocks":  true,
+                                       "EnableSecuritySignature":  false,
+                                       "EnableSMB1Protocol":  false,
+                                       "EnableSMB2Protocol":  true,
+                                       "EnableSMBQUIC":  null,
+                                       "EnableStrictNameChecking":  true,
+                                       "EncryptData":  false,
+                                       "EncryptionCiphers":  null,
+                                       "IrpStackSize":  15,
+                                       "KeepAliveTime":  2,
+                                       "MaxChannelPerSession":  32,
+                                       "MaxMpxCount":  50,
+                                       "MaxSessionPerConnection":  16384,
+                                       "MaxThreadsPerQueue":  20,
+                                       "MaxWorkItems":  1,
+                                       "NullSessionPipes":  "",
+                                       "NullSessionShares":  "",
+                                       "OplockBreakWait":  35,
+                                       "PendingClientTimeoutInSeconds":  120,
+                                       "RejectUnencryptedAccess":  true,
+                                       "RequireSecuritySignature":  false,
+                                       "RestrictNamedpipeAccessViaQuic":  null,
+                                       "ServerHidden":  true,
+                                       "Smb2CreditsMax":  2048,
+                                       "Smb2CreditsMin":  128,
+                                       "SmbServerNameHardeningLevel":  0,
+                                       "TreatHostAsStableStorage":  false,
+                                       "ValidateAliasNotCircular":  true,
+                                       "ValidateShareScope":  true,
+                                       "ValidateShareScopeNotAliased":  true,
+                                       "ValidateTargetName":  true
+                                   },
+                   "PSComputerName":  "WIN10",
+                   "RunspaceId":  "bf3546ba-5a08-4829-8a86-809039e9354a",
+                   "PSShowComputerName":  true
+               },
+    "infoADCS":  {
+        "PersonalCerts":  [
+            {
+                  "Thumbprint":  "7E92B66BE51B79D8CE3FF25C15C2DF6AB8C7F2F2",
+                  "Subject":  "CN=Oracle Corporation, OU=VirtualBox, OU=Digital ID Class 3 - Microsoft Software Validation v2, O=Oracle Corporation, L=Redwood Shores, S=California, C=US"
+              },
+              {
+                "Thumbprint":  "7F88CD7223F3C813818C994614A89C99FA3B5247",
+                "Subject":  "CN=Microsoft Authenticode(tm) Root Authority, O=MSFT, C=US"
+            }
+        ],
+        "PersonalCertsExpireIn30":  [
+                            {
+                        "Thumbprint":  "7F88CD7223F3C813818C994614A89C99FA3B5247",
+                        "Subject":  "CN=Microsoft Authenticode(tm) Root Authority, O=MSFT, C=US"
+                    },
+                    {
+                        "Thumbprint":  "18F7C1FCC3090203FD5BAA2F861A754976C8DD25",
+                        "Subject":  "OU='NO LIABILITY ACCEPTED, (c)97 VeriSign, Inc.', OU=VeriSign Time Stamping Service Root, OU='VeriSign, Inc.', O=VeriSign Trust Network"
+                    }
+                        ],
+        "PersonalCertsExpired":  [
+                        {
+                            "Thumbprint":  "CDD4EEADKZKDKZDKZ30148030C072",
+                            "Subject":  "CN=Microsoft Root Certificate Authority, DC=microsoft, DC=com"
+                        },
+                        {
+                            "Thumbprint":  "BE36A4562FB2EEZPDKJDK3ADF445084ED656",
+                            "Subject":  "CN=Thawte Timestamping CA, OU=Thawte Certification, O=Thawte, L=Durbanville, S=Western Cape, C=ZA"
+                        }
+                    ],
+        "RootCertsExpireIn30": [
+            {
+                "Thumbprint":  "7F88CD7223F3C813818C994614A89C99FA3B5247",
+                "Subject":  "CN=Microsoft Authenticode(tm) Root Authority, O=MSFT, C=US"
+            },
+                        {
+                            "Thumbprint":  "18F7C1FCC3090203FD5BAA2F861A754976C8DD25",
+                            "Subject":  "OU='NO LIABILITY ACCEPTED, (c)97 VeriSign, Inc.', OU=VeriSign Time Stamping Service Root, OU='VeriSign, Inc.', O=VeriSign Trust Network"
+                        }
+                    ],
+        "RootCertsExpired":  [
+              {
+                  "Thumbprint":  "CDD4EEAE6000AC7F40C3802C171E30148030C072",
+                  "Subject":  "CN=Microsoft Root Certificate Authority, DC=microsoft, DC=com"
+              },
+              {
+                  "Thumbprint":  "BE36A4562FB2EE05DBB3D32323ADF445084ED656",
+                  "Subject":  "CN=Thawte Timestamping CA, OU=Thawte Certification, O=Thawte, L=Durbanville, S=Western Cape, C=ZA"
+              },
+              {
+                  "Thumbprint":  "A43489159A520F0D93D032CCAF37E7FE20A8B419",
+                  "Subject":  "CN=Microsoft Root Authority, OU=Microsoft Corporation, OU=Copyright (c) 1997 Microsoft Corp."
+              },
+              {
+                  "Thumbprint":  "7F88CD7223F3C813818C994614A89C99FA3B5247",
+                  "Subject":  "CN=Microsoft Authenticode(tm) Root Authority, O=MSFT, C=US"
+              },
+              {
+                  "Thumbprint":  "7E92B66BE51B79D8CE3FF25C15C2DF6AB8C7F2F2",
+                  "Subject":  "CN=Oracle Corporation, OU=VirtualBox, OU=Digital ID Class 3 - Microsoft Software Validation v2, O=Oracle Corporation, L=Redwood Shores, S=California, C=US"
+              },
+              {
+                  "Thumbprint":  "30656FCA8C48B1D98623A94B40A6BC98BD87BFAD",
+                  "Subject":  "CN=Oracle Corporation, OU=VirtualBox, O=Oracle Corporation, L=Redwood City, S=California, C=US"
+              },
+              {
+                  "Thumbprint":  "245C97DF7514E7CF2DF8BE72AE957B9E04741E85",
+                  "Subject":  "OU=Copyright (c) 1997 Microsoft Corp., OU=Microsoft Time Stamping Service Root, OU=Microsoft Corporation, O=Microsoft Trust Network"
+              },
+              {
+                  "Thumbprint":  "18F7C1FCC3090203FD5BAA2F861A754976C8DD25",
+                  "Subject":  "OU='NO LIABILITY ACCEPTED, (c)97 VeriSign, Inc.', OU=VeriSign Time Stamping Service Root, OU='VeriSign, Inc.', O=VeriSign Trust Network"
+              }
+          ],
+        "PSComputerName":  "DC",
+        "RunspaceId":  "b8900371-5603-461b-82ff-12c1390ecce2",
+        "PSShowComputerName":  true
+        }
+}

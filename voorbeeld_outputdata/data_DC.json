@@ -1,0 +1,1752 @@
+{
+    "ComputerName":  "DC",
+    "date":  "2024-05-18-11_54",
+    "ipconfigInfo":  {
+                         "IPAddress":  "172.30.0.4",
+                         "SubnetMask":  "255.255.0.0",
+                         "DefaultGateway":  "172.30.255.254",
+                         "DnsSuffix":  [
+                                           "",
+                                           ""
+                                       ]
+                     },
+    "Domain":  {
+                   "value":  "insecure.cyb",
+                   "PSComputerName":  "DC",
+                   "RunspaceId":  "b8900371-5603-461b-82ff-12c1390ecce2",
+                   "PSShowComputerName":  true
+               },
+    "computerInfo":  {
+                         "WindowsBuildLabEx":  "20348.859.amd64fre.fe_release_svc_prod2.220707-1832",
+                         "WindowsCurrentVersion":  "6.3",
+                         "WindowsVersion":  "2009",
+                         "OsName":  "Microsoft Windows Server 2022 Standard Evaluation",
+                         "OsVersion":  "10.0.20348"
+                     },
+    "firewallProfiles":  {
+                             "DomainProfile":  true,
+                             "PrivateProfile":  true,
+                             "PublicProfile":  false,
+                             "PSComputerName":  "DC",
+                             "RunspaceId":  "b8900371-5603-461b-82ff-12c1390ecce2",
+                             "PSShowComputerName":  true
+                         },
+    "ListeningPorts":  {
+                           "value":  [
+                                         {
+                                             "LocalAddress":  "::",
+                                             "LocalPort":  58993,
+                                             "Process":  "dfsrs"
+                                         },
+                                         {
+                                             "LocalAddress":  "::",
+                                             "LocalPort":  58975,
+                                             "Process":  "dns"
+                                         },
+                                         {
+                                             "LocalAddress":  "::",
+                                             "LocalPort":  58971,
+                                             "Process":  "lsass"
+                                         },
+                                         {
+                                             "LocalAddress":  "::",
+                                             "LocalPort":  58970,
+                                             "Process":  "svchost"
+                                         },
+                                         {
+                                             "LocalAddress":  "::",
+                                             "LocalPort":  58965,
+                                             "Process":  "services"
+                                         },
+                                         {
+                                             "LocalAddress":  "::",
+                                             "LocalPort":  58962,
+                                             "Process":  "lsass"
+                                         },
+                                         {
+                                             "LocalAddress":  "::",
+                                             "LocalPort":  49668,
+                                             "Process":  "lsass"
+                                         },
+                                         {
+                                             "LocalAddress":  "::",
+                                             "LocalPort":  49667,
+                                             "Process":  "svchost"
+                                         },
+                                         {
+                                             "LocalAddress":  "::",
+                                             "LocalPort":  49666,
+                                             "Process":  "svchost"
+                                         },
+                                         {
+                                             "LocalAddress":  "::",
+                                             "LocalPort":  49665,
+                                             "Process":  "wininit"
+                                         },
+                                         {
+                                             "LocalAddress":  "::",
+                                             "LocalPort":  49664,
+                                             "Process":  "lsass"
+                                         },
+                                         {
+                                             "LocalAddress":  "::",
+                                             "LocalPort":  47001,
+                                             "Process":  "System"
+                                         },
+                                         {
+                                             "LocalAddress":  "::",
+                                             "LocalPort":  9389,
+                                             "Process":  "Microsoft.ActiveDirectory.WebServices"
+                                         },
+                                         {
+                                             "LocalAddress":  "::",
+                                             "LocalPort":  5985,
+                                             "Process":  "System"
+                                         },
+                                         {
+                                             "LocalAddress":  "::",
+                                             "LocalPort":  3389,
+                                             "Process":  "svchost"
+                                         },
+                                         {
+                                             "LocalAddress":  "::",
+                                             "LocalPort":  3269,
+                                             "Process":  "lsass"
+                                         },
+                                         {
+                                             "LocalAddress":  "::",
+                                             "LocalPort":  3268,
+                                             "Process":  "lsass"
+                                         },
+                                         {
+                                             "LocalAddress":  "::",
+                                             "LocalPort":  636,
+                                             "Process":  "lsass"
+                                         },
+                                         {
+                                             "LocalAddress":  "::",
+                                             "LocalPort":  593,
+                                             "Process":  "svchost"
+                                         },
+                                         {
+                                             "LocalAddress":  "::",
+                                             "LocalPort":  464,
+                                             "Process":  "lsass"
+                                         },
+                                         {
+                                             "LocalAddress":  "::",
+                                             "LocalPort":  445,
+                                             "Process":  "System"
+                                         },
+                                         {
+                                             "LocalAddress":  "::",
+                                             "LocalPort":  389,
+                                             "Process":  "lsass"
+                                         },
+                                         {
+                                             "LocalAddress":  "::",
+                                             "LocalPort":  135,
+                                             "Process":  "svchost"
+                                         },
+                                         {
+                                             "LocalAddress":  "::",
+                                             "LocalPort":  88,
+                                             "Process":  "lsass"
+                                         },
+                                         {
+                                             "LocalAddress":  "::",
+                                             "LocalPort":  80,
+                                             "Process":  "System"
+                                         },
+                                         {
+                                             "LocalAddress":  "fe80::499e:ccda:bfe7:e34c%4",
+                                             "LocalPort":  53,
+                                             "Process":  "dns"
+                                         },
+                                         {
+                                             "LocalAddress":  "fe80::15fb:ec81:b5c0:e8dc%6",
+                                             "LocalPort":  53,
+                                             "Process":  "dns"
+                                         },
+                                         {
+                                             "LocalAddress":  "::1",
+                                             "LocalPort":  53,
+                                             "Process":  "dns"
+                                         },
+                                         {
+                                             "LocalAddress":  "::",
+                                             "LocalPort":  22,
+                                             "Process":  "sshd"
+                                         },
+                                         {
+                                             "LocalAddress":  "0.0.0.0",
+                                             "LocalPort":  58993,
+                                             "Process":  "dfsrs"
+                                         },
+                                         {
+                                             "LocalAddress":  "0.0.0.0",
+                                             "LocalPort":  58975,
+                                             "Process":  "dns"
+                                         },
+                                         {
+                                             "LocalAddress":  "0.0.0.0",
+                                             "LocalPort":  58971,
+                                             "Process":  "lsass"
+                                         },
+                                         {
+                                             "LocalAddress":  "0.0.0.0",
+                                             "LocalPort":  58970,
+                                             "Process":  "svchost"
+                                         },
+                                         {
+                                             "LocalAddress":  "0.0.0.0",
+                                             "LocalPort":  58965,
+                                             "Process":  "services"
+                                         },
+                                         {
+                                             "LocalAddress":  "0.0.0.0",
+                                             "LocalPort":  58962,
+                                             "Process":  "lsass"
+                                         },
+                                         {
+                                             "LocalAddress":  "0.0.0.0",
+                                             "LocalPort":  49668,
+                                             "Process":  "lsass"
+                                         },
+                                         {
+                                             "LocalAddress":  "0.0.0.0",
+                                             "LocalPort":  49667,
+                                             "Process":  "svchost"
+                                         },
+                                         {
+                                             "LocalAddress":  "0.0.0.0",
+                                             "LocalPort":  49666,
+                                             "Process":  "svchost"
+                                         },
+                                         {
+                                             "LocalAddress":  "0.0.0.0",
+                                             "LocalPort":  49665,
+                                             "Process":  "wininit"
+                                         },
+                                         {
+                                             "LocalAddress":  "0.0.0.0",
+                                             "LocalPort":  49664,
+                                             "Process":  "lsass"
+                                         },
+                                         {
+                                             "LocalAddress":  "0.0.0.0",
+                                             "LocalPort":  9389,
+                                             "Process":  "Microsoft.ActiveDirectory.WebServices"
+                                         },
+                                         {
+                                             "LocalAddress":  "0.0.0.0",
+                                             "LocalPort":  3389,
+                                             "Process":  "svchost"
+                                         },
+                                         {
+                                             "LocalAddress":  "0.0.0.0",
+                                             "LocalPort":  3269,
+                                             "Process":  "lsass"
+                                         },
+                                         {
+                                             "LocalAddress":  "0.0.0.0",
+                                             "LocalPort":  3268,
+                                             "Process":  "lsass"
+                                         },
+                                         {
+                                             "LocalAddress":  "0.0.0.0",
+                                             "LocalPort":  636,
+                                             "Process":  "lsass"
+                                         },
+                                         {
+                                             "LocalAddress":  "0.0.0.0",
+                                             "LocalPort":  593,
+                                             "Process":  "svchost"
+                                         },
+                                         {
+                                             "LocalAddress":  "0.0.0.0",
+                                             "LocalPort":  389,
+                                             "Process":  "lsass"
+                                         },
+                                         {
+                                             "LocalAddress":  "172.30.0.4",
+                                             "LocalPort":  139,
+                                             "Process":  "System"
+                                         },
+                                         {
+                                             "LocalAddress":  "169.254.227.76",
+                                             "LocalPort":  139,
+                                             "Process":  "System"
+                                         },
+                                         {
+                                             "LocalAddress":  "0.0.0.0",
+                                             "LocalPort":  135,
+                                             "Process":  "svchost"
+                                         },
+                                         {
+                                             "LocalAddress":  "172.30.0.4",
+                                             "LocalPort":  53,
+                                             "Process":  "dns"
+                                         },
+                                         {
+                                             "LocalAddress":  "169.254.227.76",
+                                             "LocalPort":  53,
+                                             "Process":  "dns"
+                                         },
+                                         {
+                                             "LocalAddress":  "127.0.0.1",
+                                             "LocalPort":  53,
+                                             "Process":  "dns"
+                                         },
+                                         {
+                                             "LocalAddress":  "0.0.0.0",
+                                             "LocalPort":  22,
+                                             "Process":  "sshd"
+                                         }
+                                     ],
+                           "Count":  54
+                       },
+    "EstablishedConnections":  [
+                                   {
+                                       "LocalPort":  59171,
+                                       "RemoteHostName":  "dc.insecure.cyb",
+                                       "RemotePort":  135,
+                                       "ProcessName":  "C:\\Windows\\ADWS\\Microsoft.ActiveDirectory.WebServices.exe",
+                                       "CreationTime":  "/Date(1713951556000)/"
+                                   },
+                                   {
+                                       "LocalPort":  59170,
+                                       "RemoteHostName":  "dc.insecure.cyb",
+                                       "RemotePort":  389,
+                                       "ProcessName":  "C:\\Windows\\ADWS\\Microsoft.ActiveDirectory.WebServices.exe",
+                                       "CreationTime":  "/Date(1713951556000)/"
+                                   },
+                                   {
+                                       "LocalPort":  59134,
+                                       "RemoteHostName":  "dc.insecure.cyb",
+                                       "RemotePort":  49668,
+                                       "ProcessName":  "C:\\Windows\\ADWS\\Microsoft.ActiveDirectory.WebServices.exe",
+                                       "CreationTime":  "/Date(1713950894000)/"
+                                   },
+                                   {
+                                       "LocalPort":  59127,
+                                       "RemoteHostName":  "dc.insecure.cyb",
+                                       "RemotePort":  389,
+                                       "ProcessName":  "C:\\Windows\\ADWS\\Microsoft.ActiveDirectory.WebServices.exe",
+                                       "CreationTime":  "/Date(1713950858000)/"
+                                   },
+                                   {
+                                       "LocalPort":  59126,
+                                       "RemoteHostName":  "dc.insecure.cyb",
+                                       "RemotePort":  389,
+                                       "ProcessName":  "C:\\Windows\\ADWS\\Microsoft.ActiveDirectory.WebServices.exe",
+                                       "CreationTime":  "/Date(1713950857000)/"
+                                   },
+                                   {
+                                       "LocalPort":  59090,
+                                       "RemoteHostName":  "dc.insecure.cyb",
+                                       "RemotePort":  49668,
+                                       "ProcessName":  "C:\\Windows\\system32\\lsass.exe",
+                                       "CreationTime":  "/Date(1713950456000)/"
+                                   },
+                                   {
+                                       "LocalPort":  59022,
+                                       "RemoteHostName":  "dc.insecure.cyb",
+                                       "RemotePort":  389,
+                                       "ProcessName":  "C:\\Windows\\system32\\dns.exe",
+                                       "CreationTime":  "/Date(1713949647000)/"
+                                   },
+                                   {
+                                       "LocalPort":  58989,
+                                       "RemoteHostName":  "dc.insecure.cyb",
+                                       "RemotePort":  389,
+                                       "ProcessName":  "C:\\Windows\\system32\\DFSRs.exe",
+                                       "CreationTime":  "/Date(1713949587000)/"
+                                   },
+                                   {
+                                       "LocalPort":  58988,
+                                       "RemoteHostName":  "dc.insecure.cyb",
+                                       "RemotePort":  49668,
+                                       "ProcessName":  "C:\\Windows\\system32\\DFSRs.exe",
+                                       "CreationTime":  "/Date(1713949587000)/"
+                                   },
+                                   {
+                                       "LocalPort":  58972,
+                                       "RemoteHostName":  "dc.insecure.cyb",
+                                       "RemotePort":  389,
+                                       "ProcessName":  "C:\\Windows\\system32\\dns.exe",
+                                       "CreationTime":  "/Date(1713949586000)/"
+                                   },
+                                   {
+                                       "LocalPort":  58968,
+                                       "RemoteHostName":  "dc.insecure.cyb",
+                                       "RemotePort":  389,
+                                       "ProcessName":  "C:\\Windows\\system32\\DFSRs.exe",
+                                       "CreationTime":  "/Date(1713949566000)/"
+                                   },
+                                   {
+                                       "LocalPort":  58964,
+                                       "RemoteHostName":  "dc.insecure.cyb",
+                                       "RemotePort":  389,
+                                       "ProcessName":  "C:\\Windows\\System32\\ismserv.exe",
+                                       "CreationTime":  "/Date(1713949558000)/"
+                                   },
+                                   {
+                                       "LocalPort":  58963,
+                                       "RemoteHostName":  "dc.insecure.cyb",
+                                       "RemotePort":  389,
+                                       "ProcessName":  "C:\\Windows\\System32\\ismserv.exe",
+                                       "CreationTime":  "/Date(1713949558000)/"
+                                   },
+                                   {
+                                       "LocalPort":  49668,
+                                       "RemoteHostName":  "dc.insecure.cyb",
+                                       "RemotePort":  59090,
+                                       "ProcessName":  "C:\\Windows\\system32\\lsass.exe",
+                                       "CreationTime":  "/Date(1713950456000)/"
+                                   },
+                                   {
+                                       "LocalPort":  49668,
+                                       "RemoteHostName":  "dc.insecure.cyb",
+                                       "RemotePort":  58988,
+                                       "ProcessName":  "C:\\Windows\\system32\\lsass.exe",
+                                       "CreationTime":  "/Date(1713949587000)/"
+                                   },
+                                   {
+                                       "LocalPort":  49668,
+                                       "RemoteHostName":  "dc.insecure.cyb",
+                                       "RemotePort":  59134,
+                                       "ProcessName":  "C:\\Windows\\system32\\lsass.exe",
+                                       "CreationTime":  "/Date(1713950894000)/"
+                                   },
+                                   {
+                                       "LocalPort":  389,
+                                       "RemoteHostName":  "dc.insecure.cyb",
+                                       "RemotePort":  59022,
+                                       "ProcessName":  "C:\\Windows\\system32\\lsass.exe",
+                                       "CreationTime":  "/Date(1713949647000)/"
+                                   },
+                                   {
+                                       "LocalPort":  389,
+                                       "RemoteHostName":  "dc.insecure.cyb",
+                                       "RemotePort":  58989,
+                                       "ProcessName":  "C:\\Windows\\system32\\lsass.exe",
+                                       "CreationTime":  "/Date(1713949587000)/"
+                                   },
+                                   {
+                                       "LocalPort":  389,
+                                       "RemoteHostName":  "dc.insecure.cyb",
+                                       "RemotePort":  58968,
+                                       "ProcessName":  "C:\\Windows\\system32\\lsass.exe",
+                                       "CreationTime":  "/Date(1713949566000)/"
+                                   },
+                                   {
+                                       "LocalPort":  389,
+                                       "RemoteHostName":  "dc.insecure.cyb",
+                                       "RemotePort":  59170,
+                                       "ProcessName":  "C:\\Windows\\system32\\lsass.exe",
+                                       "CreationTime":  "/Date(1713951556000)/"
+                                   },
+                                   {
+                                       "LocalPort":  389,
+                                       "RemoteHostName":  "dc.insecure.cyb",
+                                       "RemotePort":  59127,
+                                       "ProcessName":  "C:\\Windows\\system32\\lsass.exe",
+                                       "CreationTime":  "/Date(1713950858000)/"
+                                   },
+                                   {
+                                       "LocalPort":  389,
+                                       "RemoteHostName":  "dc.insecure.cyb",
+                                       "RemotePort":  59126,
+                                       "ProcessName":  "C:\\Windows\\system32\\lsass.exe",
+                                       "CreationTime":  "/Date(1713950857000)/"
+                                   },
+                                   {
+                                       "LocalPort":  389,
+                                       "RemoteHostName":  "dc.insecure.cyb",
+                                       "RemotePort":  58972,
+                                       "ProcessName":  "C:\\Windows\\system32\\lsass.exe",
+                                       "CreationTime":  "/Date(1713949586000)/"
+                                   },
+                                   {
+                                       "LocalPort":  389,
+                                       "RemoteHostName":  "dc.insecure.cyb",
+                                       "RemotePort":  58964,
+                                       "ProcessName":  "C:\\Windows\\system32\\lsass.exe",
+                                       "CreationTime":  "/Date(1713949558000)/"
+                                   },
+                                   {
+                                       "LocalPort":  389,
+                                       "RemoteHostName":  "dc.insecure.cyb",
+                                       "RemotePort":  58963,
+                                       "ProcessName":  "C:\\Windows\\system32\\lsass.exe",
+                                       "CreationTime":  "/Date(1713949558000)/"
+                                   },
+                                   {
+                                       "LocalPort":  135,
+                                       "RemoteHostName":  "dc.insecure.cyb",
+                                       "RemotePort":  59171,
+                                       "ProcessName":  "C:\\Windows\\system32\\svchost.exe",
+                                       "CreationTime":  "/Date(1713951556000)/"
+                                   },
+                                   {
+                                       "LocalPort":  59173,
+                                       "RemoteHostName":  "dc.insecure.cyb",
+                                       "RemotePort":  58970,
+                                       "ProcessName":  "C:\\Windows\\system32\\wbem\\wmiprvse.exe",
+                                       "CreationTime":  "/Date(1713951559000)/"
+                                   },
+                                   {
+                                       "LocalPort":  59172,
+                                       "RemoteHostName":  "dc.insecure.cyb",
+                                       "RemotePort":  135,
+                                       "ProcessName":  "C:\\Windows\\system32\\wbem\\wmiprvse.exe",
+                                       "CreationTime":  "/Date(1713951559000)/"
+                                   },
+                                   {
+                                       "LocalPort":  58970,
+                                       "RemoteHostName":  "dc.insecure.cyb",
+                                       "RemotePort":  59173,
+                                       "ProcessName":  "C:\\Windows\\system32\\svchost.exe",
+                                       "CreationTime":  "/Date(1713951559000)/"
+                                   },
+                                   {
+                                       "LocalPort":  9389,
+                                       "RemoteHostName":  "WIN10",
+                                       "RemotePort":  1473,
+                                       "ProcessName":  "C:\\Windows\\ADWS\\Microsoft.ActiveDirectory.WebServices.exe",
+                                       "CreationTime":  "/Date(1713951526000)/"
+                                   },
+                                   {
+                                       "LocalPort":  5985,
+                                       "RemoteHostName":  "WIN10",
+                                       "RemotePort":  1499,
+                                       "ProcessName":  null,
+                                       "CreationTime":  "/Date(1713951608000)/"
+                                   },
+                                   {
+                                       "LocalPort":  5985,
+                                       "RemoteHostName":  "WIN10",
+                                       "RemotePort":  1498,
+                                       "ProcessName":  null,
+                                       "CreationTime":  "/Date(1713951606000)/"
+                                   },
+                                   {
+                                       "LocalPort":  5985,
+                                       "RemoteHostName":  "WIN10",
+                                       "RemotePort":  1497,
+                                       "ProcessName":  null,
+                                       "CreationTime":  "/Date(1713951606000)/"
+                                   },
+                                   {
+                                       "LocalPort":  135,
+                                       "RemoteHostName":  "dc.insecure.cyb",
+                                       "RemotePort":  59172,
+                                       "ProcessName":  "C:\\Windows\\system32\\svchost.exe",
+                                       "CreationTime":  "/Date(1713951559000)/"
+                                   },
+                                   {
+                                       "LocalPort":  22,
+                                       "RemoteHostName":  null,
+                                       "RemotePort":  43576,
+                                       "ProcessName":  "C:\\Program Files\\OpenSSH-Win64\\sshd.exe",
+                                       "CreationTime":  "/Date(1713949976000)/"
+                                   }
+                               ],
+    "roleInfo":  {
+                     "isDomainController":  true,
+                     "isIISInstalled":  true,
+                     "isDNSInstalled":  true,
+                     "isDHCPInstalled":  true,
+                     "isFileServerInstalled":  true,
+                     "isADCSInstalled":  true,
+                     "isRDSInstalled":  true,
+                     "PSComputerName":  "DC",
+                     "RunspaceId":  "b8900371-5603-461b-82ff-12c1390ecce2",
+                     "PSShowComputerName":  true
+                 },
+    "infoDC":  {
+                   "dcInfo":  {
+                                  "ComputerObjectDN":  "CN=DC,OU=Domain Controllers,DC=insecure,DC=cyb",
+                                  "DefaultPartition":  "DC=insecure,DC=cyb",
+                                  "Domain":  "insecure.cyb",
+                                  "Enabled":  true,
+                                  "Forest":  "insecure.cyb",
+                                  "HostName":  "dc.insecure.cyb",
+                                  "InvocationId":  "70f83cc3-a996-4379-9a08-20906fa5709e",
+                                  "IPv4Address":  "169.254.227.76",
+                                  "IPv6Address":  null,
+                                  "IsGlobalCatalog":  true,
+                                  "IsReadOnly":  false,
+                                  "LdapPort":  389,
+                                  "Name":  "DC",
+                                  "NTDSSettingsObjectDN":  "CN=NTDS Settings,CN=DC,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=insecure,DC=cyb",
+                                  "OperatingSystem":  "Windows Server 2022 Standard Evaluation",
+                                  "OperatingSystemHotfix":  null,
+                                  "OperatingSystemServicePack":  null,
+                                  "OperatingSystemVersion":  "10.0 (20348)",
+                                  "OperationMasterRoles":  [
+                                                               "SchemaMaster",
+                                                               "DomainNamingMaster",
+                                                               "PDCEmulator",
+                                                               "RIDMaster",
+                                                               "InfrastructureMaster"
+                                                           ],
+                                  "Partitions":  [
+                                                     "DC=ForestDnsZones,DC=insecure,DC=cyb",
+                                                     "DC=DomainDnsZones,DC=insecure,DC=cyb",
+                                                     "CN=Schema,CN=Configuration,DC=insecure,DC=cyb",
+                                                     "CN=Configuration,DC=insecure,DC=cyb",
+                                                     "DC=insecure,DC=cyb"
+                                                 ],
+                                  "ServerObjectDN":  "CN=DC,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=insecure,DC=cyb",
+                                  "ServerObjectGuid":  "1985b9ae-38e5-4356-aed1-18862b6b3dde",
+                                  "Site":  "Default-First-Site-Name",
+                                  "SslPort":  636
+                              },
+                   "PSComputerName":  "DC",
+                   "RunspaceId":  "b8900371-5603-461b-82ff-12c1390ecce2",
+                   "PSShowComputerName":  true
+               },
+    "infoIIS":  {
+                    "iisInfo":  {
+                                    "name":  "Default Web Site",
+                                    "id":  1,
+                                    "serverAutoStart":  true,
+                                    "state":  "Started",
+                                    "binding":  null,
+                                    "limits":  {
+                                                   "maxBandwidth":  4294967295,
+                                                   "maxConnections":  4294967295,
+                                                   "connectionTimeout":  "00:02:00",
+                                                   "maxUrlSegments":  32,
+                                                   "Attributes":  "Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute",
+                                                   "ChildElements":  "",
+                                                   "ElementTagName":  "limits",
+                                                   "Methods":  null,
+                                                   "Schema":  "Microsoft.IIs.PowerShell.Framework.ConfigurationElementSchema"
+                                               },
+                                    "logFile":  {
+                                                    "logExtFileFlags":  "Date,Time,ClientIP,UserName,ServerIP,Method,UriStem,UriQuery,HttpStatus,Win32Status,TimeTaken,ServerPort,UserAgent,Referer,HttpSubStatus",
+                                                    "customLogPluginClsid":  "",
+                                                    "logFormat":  "W3C",
+                                                    "logTargetW3C":  "File",
+                                                    "directory":  "%SystemDrive%\\inetpub\\logs\\LogFiles",
+                                                    "period":  "Daily",
+                                                    "truncateSize":  20971520,
+                                                    "localTimeRollover":  false,
+                                                    "enabled":  true,
+                                                    "logSiteId":  true,
+                                                    "flushByEntryCountW3CLog":  0,
+                                                    "maxLogLineLength":  65536,
+                                                    "customFields":  "Microsoft.IIs.PowerShell.Framework.ConfigurationElement",
+                                                    "Attributes":  "Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute",
+                                                    "ChildElements":  "System.Collections.ArrayList",
+                                                    "ElementTagName":  "logFile",
+                                                    "Methods":  null,
+                                                    "Schema":  "Microsoft.IIs.PowerShell.Framework.ConfigurationElementSchema"
+                                                },
+                                    "traceFailedRequestsLogging":  {
+                                                                       "enabled":  false,
+                                                                       "directory":  "%SystemDrive%\\inetpub\\logs\\FailedReqLogFiles",
+                                                                       "maxLogFiles":  50,
+                                                                       "maxLogFileSizeKB":  1024,
+                                                                       "customActionsEnabled":  false,
+                                                                       "Attributes":  "Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute",
+                                                                       "ChildElements":  "",
+                                                                       "ElementTagName":  "traceFailedRequestsLogging",
+                                                                       "Methods":  null,
+                                                                       "Schema":  "Microsoft.IIs.PowerShell.Framework.ConfigurationElementSchema"
+                                                                   },
+                                    "hsts":  {
+                                                 "enabled":  false,
+                                                 "max-age":  0,
+                                                 "includeSubDomains":  false,
+                                                 "preload":  false,
+                                                 "redirectHttpToHttps":  false,
+                                                 "Attributes":  "Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute",
+                                                 "ChildElements":  "",
+                                                 "ElementTagName":  "hsts",
+                                                 "Methods":  null,
+                                                 "Schema":  "Microsoft.IIs.PowerShell.Framework.ConfigurationElementSchema"
+                                             },
+                                    "applicationDefaults":  {
+                                                                "path":  "",
+                                                                "applicationPool":  "",
+                                                                "enabledProtocols":  "http",
+                                                                "serviceAutoStartEnabled":  false,
+                                                                "serviceAutoStartProvider":  "",
+                                                                "preloadEnabled":  false,
+                                                                "Attributes":  "Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute",
+                                                                "ChildElements":  "",
+                                                                "ElementTagName":  "applicationDefaults",
+                                                                "Methods":  null,
+                                                                "Schema":  "Microsoft.IIs.PowerShell.Framework.ConfigurationElementSchema"
+                                                            },
+                                    "virtualDirectoryDefaults":  {
+                                                                     "path":  "",
+                                                                     "physicalPath":  "",
+                                                                     "userName":  "",
+                                                                     "password":  "",
+                                                                     "logonMethod":  "ClearText",
+                                                                     "allowSubDirConfig":  true,
+                                                                     "Attributes":  "Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute",
+                                                                     "ChildElements":  "",
+                                                                     "ElementTagName":  "virtualDirectoryDefaults",
+                                                                     "Methods":  null,
+                                                                     "Schema":  "Microsoft.IIs.PowerShell.Framework.ConfigurationElementSchema"
+                                                                 },
+                                    "ftpServer":  {
+                                                      "state":  null,
+                                                      "lastStartupStatus":  null,
+                                                      "allowUTF8":  true,
+                                                      "serverAutoStart":  true,
+                                                      "sessions":  "Microsoft.IIs.PowerShell.Framework.ConfigurationElement",
+                                                      "connections":  "Microsoft.IIs.PowerShell.Framework.ConfigurationElement",
+                                                      "security":  "Microsoft.IIs.PowerShell.Framework.ConfigurationElement",
+                                                      "customFeatures":  "Microsoft.IIs.PowerShell.Framework.ConfigurationElement",
+                                                      "messages":  "Microsoft.IIs.PowerShell.Framework.ConfigurationElement",
+                                                      "fileHandling":  "Microsoft.IIs.PowerShell.Framework.ConfigurationElement",
+                                                      "firewallSupport":  "Microsoft.IIs.PowerShell.Framework.ConfigurationElement",
+                                                      "userIsolation":  "Microsoft.IIs.PowerShell.Framework.ConfigurationElement",
+                                                      "directoryBrowse":  "Microsoft.IIs.PowerShell.Framework.ConfigurationElement",
+                                                      "logFile":  "Microsoft.IIs.PowerShell.Framework.ConfigurationElement",
+                                                      "Attributes":  "Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute",
+                                                      "ChildElements":  "Microsoft.IIs.PowerShell.Framework.ConfigurationElement Microsoft.IIs.PowerShell.Framework.ConfigurationElement Microsoft.IIs.PowerShell.Framework.ConfigurationElement Microsoft.IIs.PowerShell.Framework.ConfigurationElement Microsoft.IIs.PowerShell.Framework.ConfigurationElement Microsoft.IIs.PowerShell.Framework.ConfigurationElement Microsoft.IIs.PowerShell.Framework.ConfigurationElement Microsoft.IIs.PowerShell.Framework.ConfigurationElement Microsoft.IIs.PowerShell.Framework.ConfigurationElement",
+                                                      "ElementTagName":  "ftpServer",
+                                                      "Methods":  "Microsoft.IIs.PowerShell.Framework.ConfigurationMethod Microsoft.IIs.PowerShell.Framework.ConfigurationMethod Microsoft.IIs.PowerShell.Framework.ConfigurationMethod",
+                                                      "Schema":  "Microsoft.IIs.PowerShell.Framework.ConfigurationElementSchema"
+                                                  },
+                                    "Collection":  [
+                                                       "Microsoft.IIs.PowerShell.Framework.ConfigurationElement"
+                                                   ],
+                                    "applicationPool":  "DefaultAppPool",
+                                    "enabledProtocols":  "http",
+                                    "physicalPath":  "%SystemDrive%\\inetpub\\wwwroot",
+                                    "userName":  "",
+                                    "password":  "",
+                                    "Attributes":  [
+                                                       "Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute",
+                                                       "Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute",
+                                                       "Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute",
+                                                       "Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute"
+                                                   ],
+                                    "ChildElements":  [
+                                                          "Microsoft.IIs.PowerShell.Framework.ConfigurationElement",
+                                                          "Microsoft.IIs.PowerShell.Framework.ConfigurationElement",
+                                                          "Microsoft.IIs.PowerShell.Framework.ConfigurationElement",
+                                                          "Microsoft.IIs.PowerShell.Framework.ConfigurationElement",
+                                                          "Microsoft.IIs.PowerShell.Framework.ConfigurationElement",
+                                                          "Microsoft.IIs.PowerShell.Framework.ConfigurationElement",
+                                                          "Microsoft.IIs.PowerShell.Framework.ConfigurationElement",
+                                                          "Microsoft.IIs.PowerShell.Framework.ConfigurationElement"
+                                                      ],
+                                    "ElementTagName":  "site",
+                                    "Methods":  [
+                                                    "Microsoft.IIs.PowerShell.Framework.ConfigurationMethod",
+                                                    "Microsoft.IIs.PowerShell.Framework.ConfigurationMethod"
+                                                ],
+                                    "Schema":  {
+                                                   "AllowUnrecognizedAttributes":  false,
+                                                   "AttributeSchemas":  "Microsoft.IIs.PowerShell.Framework.ConfigurationAttributeSchema Microsoft.IIs.PowerShell.Framework.ConfigurationAttributeSchema Microsoft.IIs.PowerShell.Framework.ConfigurationAttributeSchema Microsoft.IIs.PowerShell.Framework.ConfigurationAttributeSchema",
+                                                   "ChildElementSchemas":  "Microsoft.IIs.PowerShell.Framework.ConfigurationElementSchema Microsoft.IIs.PowerShell.Framework.ConfigurationElementSchema Microsoft.IIs.PowerShell.Framework.ConfigurationElementSchema Microsoft.IIs.PowerShell.Framework.ConfigurationElementSchema Microsoft.IIs.PowerShell.Framework.ConfigurationElementSchema Microsoft.IIs.PowerShell.Framework.ConfigurationElementSchema Microsoft.IIs.PowerShell.Framework.ConfigurationElementSchema Microsoft.IIs.PowerShell.Framework.ConfigurationElementSchema",
+                                                   "CollectionSchema":  "Microsoft.IIs.PowerShell.Framework.ConfigurationCollectionSchema",
+                                                   "IsCollectionDefault":  false,
+                                                   "Name":  "site"
+                                               }
+                                },
+                    "iisInfo2":  {
+                                     "name":  "DefaultAppPool",
+                                     "queueLength":  1000,
+                                     "autoStart":  true,
+                                     "enable32BitAppOnWin64":  false,
+                                     "managedRuntimeVersion":  "v4.0",
+                                     "managedRuntimeLoader":  "webengine4.dll",
+                                     "enableConfigurationOverride":  true,
+                                     "managedPipelineMode":  "Integrated",
+                                     "CLRConfigFile":  "",
+                                     "passAnonymousToken":  true,
+                                     "startMode":  "OnDemand",
+                                     "state":  "Started",
+                                     "applicationPoolSid":  "S-1-5-82-3006700770-424185619-1745488364-794895919-4004696415",
+                                     "processModel":  {
+                                                          "identityType":  "ApplicationPoolIdentity",
+                                                          "userName":  "",
+                                                          "password":  "",
+                                                          "requestQueueDelegatorIdentity":  "",
+                                                          "loadUserProfile":  false,
+                                                          "setProfileEnvironment":  true,
+                                                          "logonType":  "LogonBatch",
+                                                          "manualGroupMembership":  false,
+                                                          "idleTimeout":  "00:20:00",
+                                                          "idleTimeoutAction":  "Terminate",
+                                                          "maxProcesses":  1,
+                                                          "shutdownTimeLimit":  "00:01:30",
+                                                          "startupTimeLimit":  "00:01:30",
+                                                          "pingingEnabled":  true,
+                                                          "pingInterval":  "00:00:30",
+                                                          "pingResponseTime":  "00:01:30",
+                                                          "logEventOnProcessModel":  "IdleTimeout",
+                                                          "Attributes":  "Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute",
+                                                          "ChildElements":  "",
+                                                          "ElementTagName":  "processModel",
+                                                          "Methods":  null,
+                                                          "Schema":  "Microsoft.IIs.PowerShell.Framework.ConfigurationElementSchema"
+                                                      },
+                                     "recycling":  {
+                                                       "disallowOverlappingRotation":  false,
+                                                       "disallowRotationOnConfigChange":  false,
+                                                       "logEventOnRecycle":  "Time,Requests,Schedule,Memory,IsapiUnhealthy,OnDemand,ConfigChange,PrivateMemory",
+                                                       "periodicRestart":  "Microsoft.IIs.PowerShell.Framework.ConfigurationElement",
+                                                       "Attributes":  "Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute",
+                                                       "ChildElements":  "Microsoft.IIs.PowerShell.Framework.ConfigurationElement",
+                                                       "ElementTagName":  "recycling",
+                                                       "Methods":  null,
+                                                       "Schema":  "Microsoft.IIs.PowerShell.Framework.ConfigurationElementSchema"
+                                                   },
+                                     "failure":  {
+                                                     "loadBalancerCapabilities":  "HttpLevel",
+                                                     "orphanWorkerProcess":  false,
+                                                     "orphanActionExe":  "",
+                                                     "orphanActionParams":  "",
+                                                     "rapidFailProtection":  true,
+                                                     "rapidFailProtectionInterval":  "00:05:00",
+                                                     "rapidFailProtectionMaxCrashes":  5,
+                                                     "autoShutdownExe":  "",
+                                                     "autoShutdownParams":  "",
+                                                     "Attributes":  "Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute",
+                                                     "ChildElements":  "",
+                                                     "ElementTagName":  "failure",
+                                                     "Methods":  null,
+                                                     "Schema":  "Microsoft.IIs.PowerShell.Framework.ConfigurationElementSchema"
+                                                 },
+                                     "cpu":  {
+                                                 "limit":  0,
+                                                 "action":  "NoAction",
+                                                 "resetInterval":  "00:05:00",
+                                                 "smpAffinitized":  false,
+                                                 "smpProcessorAffinityMask":  4294967295,
+                                                 "smpProcessorAffinityMask2":  4294967295,
+                                                 "processorGroup":  0,
+                                                 "numaNodeAssignment":  "MostAvailableMemory",
+                                                 "numaNodeAffinityMode":  "Soft",
+                                                 "Attributes":  "Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute",
+                                                 "ChildElements":  "",
+                                                 "ElementTagName":  "cpu",
+                                                 "Methods":  null,
+                                                 "Schema":  "Microsoft.IIs.PowerShell.Framework.ConfigurationElementSchema"
+                                             },
+                                     "environmentVariables":  {
+                                                                  "Collection":  "",
+                                                                  "Attributes":  "",
+                                                                  "ChildElements":  "",
+                                                                  "ElementTagName":  "environmentVariables",
+                                                                  "Methods":  null,
+                                                                  "Schema":  "Microsoft.IIs.PowerShell.Framework.ConfigurationElementSchema"
+                                                              },
+                                     "workerProcesses":  {
+                                                             "Collection":  "",
+                                                             "Attributes":  "",
+                                                             "ChildElements":  "",
+                                                             "ElementTagName":  "workerProcesses",
+                                                             "Methods":  null,
+                                                             "Schema":  "Microsoft.IIs.PowerShell.Framework.ConfigurationElementSchema"
+                                                         },
+                                     "ItemXPath":  "/system.applicationHost/applicationPools/add[@name='DefaultAppPool']",
+                                     "PSPath":  "WebAdministration::\\\\DC\\AppPools\\DefaultAppPool",
+                                     "PSParentPath":  "WebAdministration::\\\\DC\\AppPools",
+                                     "PSChildName":  "DefaultAppPool",
+                                     "PSDrive.Name":  null,
+                                     "PSProvider.Name":  null,
+                                     "PSIsContainer":  true,
+                                     "Attributes":  [
+                                                        "Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute",
+                                                        "Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute",
+                                                        "Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute",
+                                                        "Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute",
+                                                        "Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute",
+                                                        "Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute",
+                                                        "Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute",
+                                                        "Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute",
+                                                        "Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute",
+                                                        "Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute",
+                                                        "Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute",
+                                                        "Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute",
+                                                        "Microsoft.IIs.PowerShell.Framework.ConfigurationAttribute"
+                                                    ],
+                                     "ChildElements":  [
+                                                           "Microsoft.IIs.PowerShell.Framework.ConfigurationElement",
+                                                           "Microsoft.IIs.PowerShell.Framework.ConfigurationElement",
+                                                           "Microsoft.IIs.PowerShell.Framework.ConfigurationElement",
+                                                           "Microsoft.IIs.PowerShell.Framework.ConfigurationElement",
+                                                           "",
+                                                           ""
+                                                       ],
+                                     "ElementTagName":  "add",
+                                     "Methods":  [
+                                                     "Microsoft.IIs.PowerShell.Framework.ConfigurationMethod",
+                                                     "Microsoft.IIs.PowerShell.Framework.ConfigurationMethod",
+                                                     "Microsoft.IIs.PowerShell.Framework.ConfigurationMethod"
+                                                 ],
+                                     "Schema":  {
+                                                    "AllowUnrecognizedAttributes":  false,
+                                                    "AttributeSchemas":  "Microsoft.IIs.PowerShell.Framework.ConfigurationAttributeSchema Microsoft.IIs.PowerShell.Framework.ConfigurationAttributeSchema Microsoft.IIs.PowerShell.Framework.ConfigurationAttributeSchema Microsoft.IIs.PowerShell.Framework.ConfigurationAttributeSchema Microsoft.IIs.PowerShell.Framework.ConfigurationAttributeSchema Microsoft.IIs.PowerShell.Framework.ConfigurationAttributeSchema Microsoft.IIs.PowerShell.Framework.ConfigurationAttributeSchema Microsoft.IIs.PowerShell.Framework.ConfigurationAttributeSchema Microsoft.IIs.PowerShell.Framework.ConfigurationAttributeSchema Microsoft.IIs.PowerShell.Framework.ConfigurationAttributeSchema Microsoft.IIs.PowerShell.Framework.ConfigurationAttributeSchema Microsoft.IIs.PowerShell.Framework.ConfigurationAttributeSchema Microsoft.IIs.PowerShell.Framework.ConfigurationAttributeSchema",
+                                                    "ChildElementSchemas":  "Microsoft.IIs.PowerShell.Framework.ConfigurationElementSchema Microsoft.IIs.PowerShell.Framework.ConfigurationElementSchema Microsoft.IIs.PowerShell.Framework.ConfigurationElementSchema Microsoft.IIs.PowerShell.Framework.ConfigurationElementSchema Microsoft.IIs.PowerShell.Framework.ConfigurationElementSchema Microsoft.IIs.PowerShell.Framework.ConfigurationElementSchema",
+                                                    "CollectionSchema":  null,
+                                                    "IsCollectionDefault":  false,
+                                                    "Name":  "add"
+                                                }
+                                 },
+                    "PSComputerName":  "DC",
+                    "RunspaceId":  "b8900371-5603-461b-82ff-12c1390ecce2",
+                    "PSShowComputerName":  true
+                },
+    "infoDNS":  {
+                    "dnsSetting":  {
+                                       "AllIPAddress":  [
+                                                            {
+                                                                "value":  "fe80::15fb:ec81:b5c0:e8dc",
+                                                                "IPAddressToString":  "fe80::15fb:ec81:b5c0:e8dc"
+                                                            },
+                                                            {
+                                                                "value":  "172.30.0.4",
+                                                                "IPAddressToString":  "172.30.0.4"
+                                                            },
+                                                            {
+                                                                "value":  "fe80::499e:ccda:bfe7:e34c",
+                                                                "IPAddressToString":  "fe80::499e:ccda:bfe7:e34c"
+                                                            },
+                                                            {
+                                                                "value":  "169.254.227.76",
+                                                                "IPAddressToString":  "169.254.227.76"
+                                                            }
+                                                        ],
+                                       "BuildNumber":  20348,
+                                       "ComputerName":  "dc.insecure.cyb",
+                                       "EnableDnsSec":  true,
+                                       "EnableIPv6":  true,
+                                       "IsReadOnlyDC":  false,
+                                       "ListeningIPAddress":  [
+                                                                  {
+                                                                      "value":  "fe80::15fb:ec81:b5c0:e8dc",
+                                                                      "IPAddressToString":  "fe80::15fb:ec81:b5c0:e8dc"
+                                                                  },
+                                                                  {
+                                                                      "value":  "172.30.0.4",
+                                                                      "IPAddressToString":  "172.30.0.4"
+                                                                  },
+                                                                  {
+                                                                      "value":  "fe80::499e:ccda:bfe7:e34c",
+                                                                      "IPAddressToString":  "fe80::499e:ccda:bfe7:e34c"
+                                                                  },
+                                                                  {
+                                                                      "value":  "169.254.227.76",
+                                                                      "IPAddressToString":  "169.254.227.76"
+                                                                  }
+                                                              ],
+                                       "MajorVersion":  10,
+                                       "MinorVersion":  0
+                                   },
+                    "dnsZone":  [
+                                    {
+                                        "DistinguishedName":  "DC=_msdcs.insecure.cyb,cn=MicrosoftDNS,DC=ForestDnsZones,DC=insecure,DC=cyb",
+                                        "IsAutoCreated":  false,
+                                        "IsDsIntegrated":  true,
+                                        "IsPaused":  false,
+                                        "IsReadOnly":  false,
+                                        "IsReverseLookupZone":  false,
+                                        "IsShutdown":  false,
+                                        "ZoneName":  "_msdcs.insecure.cyb",
+                                        "ZoneType":  "Primary",
+                                        "AllowedDcForNsRecordsAutoCreation":  null,
+                                        "DirectoryPartitionName":  "ForestDnsZones.insecure.cyb",
+                                        "DynamicUpdate":  "Secure",
+                                        "IgnorePolicies":  false,
+                                        "IsSigned":  false,
+                                        "IsWinsEnabled":  false,
+                                        "Notify":  "NotifyServers",
+                                        "NotifyServers":  null,
+                                        "ReplicationScope":  "Forest",
+                                        "SecondaryServers":  null,
+                                        "SecureSecondaries":  "NoTransfer",
+                                        "ZoneFile":  null
+                                    },
+                                    {
+                                        "DistinguishedName":  null,
+                                        "IsAutoCreated":  true,
+                                        "IsDsIntegrated":  false,
+                                        "IsPaused":  false,
+                                        "IsReadOnly":  false,
+                                        "IsReverseLookupZone":  true,
+                                        "IsShutdown":  false,
+                                        "ZoneName":  "0.in-addr.arpa",
+                                        "ZoneType":  "Primary",
+                                        "AllowedDcForNsRecordsAutoCreation":  null,
+                                        "DirectoryPartitionName":  null,
+                                        "DynamicUpdate":  "None",
+                                        "IgnorePolicies":  true,
+                                        "IsSigned":  false,
+                                        "IsWinsEnabled":  false,
+                                        "Notify":  "Notify",
+                                        "NotifyServers":  null,
+                                        "ReplicationScope":  "None",
+                                        "SecondaryServers":  null,
+                                        "SecureSecondaries":  "TransferToZoneNameServer",
+                                        "ZoneFile":  null
+                                    },
+                                    {
+                                        "DistinguishedName":  null,
+                                        "IsAutoCreated":  true,
+                                        "IsDsIntegrated":  false,
+                                        "IsPaused":  false,
+                                        "IsReadOnly":  false,
+                                        "IsReverseLookupZone":  true,
+                                        "IsShutdown":  false,
+                                        "ZoneName":  "127.in-addr.arpa",
+                                        "ZoneType":  "Primary",
+                                        "AllowedDcForNsRecordsAutoCreation":  null,
+                                        "DirectoryPartitionName":  null,
+                                        "DynamicUpdate":  "None",
+                                        "IgnorePolicies":  true,
+                                        "IsSigned":  false,
+                                        "IsWinsEnabled":  false,
+                                        "Notify":  "Notify",
+                                        "NotifyServers":  null,
+                                        "ReplicationScope":  "None",
+                                        "SecondaryServers":  null,
+                                        "SecureSecondaries":  "TransferToZoneNameServer",
+                                        "ZoneFile":  null
+                                    },
+                                    {
+                                        "DistinguishedName":  null,
+                                        "IsAutoCreated":  true,
+                                        "IsDsIntegrated":  false,
+                                        "IsPaused":  false,
+                                        "IsReadOnly":  false,
+                                        "IsReverseLookupZone":  true,
+                                        "IsShutdown":  false,
+                                        "ZoneName":  "255.in-addr.arpa",
+                                        "ZoneType":  "Primary",
+                                        "AllowedDcForNsRecordsAutoCreation":  null,
+                                        "DirectoryPartitionName":  null,
+                                        "DynamicUpdate":  "None",
+                                        "IgnorePolicies":  true,
+                                        "IsSigned":  false,
+                                        "IsWinsEnabled":  false,
+                                        "Notify":  "Notify",
+                                        "NotifyServers":  null,
+                                        "ReplicationScope":  "None",
+                                        "SecondaryServers":  null,
+                                        "SecureSecondaries":  "TransferToZoneNameServer",
+                                        "ZoneFile":  null
+                                    },
+                                    {
+                                        "DistinguishedName":  "DC=insecure.cyb,cn=MicrosoftDNS,DC=DomainDnsZones,DC=insecure,DC=cyb",
+                                        "IsAutoCreated":  false,
+                                        "IsDsIntegrated":  true,
+                                        "IsPaused":  false,
+                                        "IsReadOnly":  false,
+                                        "IsReverseLookupZone":  false,
+                                        "IsShutdown":  false,
+                                        "ZoneName":  "insecure.cyb",
+                                        "ZoneType":  "Primary",
+                                        "AllowedDcForNsRecordsAutoCreation":  null,
+                                        "DirectoryPartitionName":  "DomainDnsZones.insecure.cyb",
+                                        "DynamicUpdate":  "Secure",
+                                        "IgnorePolicies":  false,
+                                        "IsSigned":  false,
+                                        "IsWinsEnabled":  false,
+                                        "Notify":  "NotifyServers",
+                                        "NotifyServers":  null,
+                                        "ReplicationScope":  "Domain",
+                                        "SecondaryServers":  null,
+                                        "SecureSecondaries":  "TransferAnyServer",
+                                        "ZoneFile":  null
+                                    },
+                                    {
+                                        "DistinguishedName":  "DC=..TrustAnchors,cn=MicrosoftDNS,DC=ForestDnsZones,DC=insecure,DC=cyb",
+                                        "IsAutoCreated":  false,
+                                        "IsDsIntegrated":  true,
+                                        "IsPaused":  false,
+                                        "IsReadOnly":  false,
+                                        "IsReverseLookupZone":  false,
+                                        "IsShutdown":  false,
+                                        "ZoneName":  "TrustAnchors",
+                                        "ZoneType":  "Primary",
+                                        "AllowedDcForNsRecordsAutoCreation":  null,
+                                        "DirectoryPartitionName":  "ForestDnsZones.insecure.cyb",
+                                        "DynamicUpdate":  "None",
+                                        "IgnorePolicies":  true,
+                                        "IsSigned":  false,
+                                        "IsWinsEnabled":  false,
+                                        "Notify":  "NotifyServers",
+                                        "NotifyServers":  null,
+                                        "ReplicationScope":  "Forest",
+                                        "SecondaryServers":  null,
+                                        "SecureSecondaries":  "NoTransfer",
+                                        "ZoneFile":  null
+                                    }
+                                ],
+                    "dnsCache":  {
+                                     "DistinguishedName":  "DC=RootDNSServers,cn=MicrosoftDNS,DC=DomainDnsZones,DC=insecure,DC=cyb",
+                                     "IsAutoCreated":  false,
+                                     "IsDsIntegrated":  true,
+                                     "IsPaused":  false,
+                                     "IsReadOnly":  false,
+                                     "IsReverseLookupZone":  false,
+                                     "IsShutdown":  false,
+                                     "ZoneName":  ".",
+                                     "ZoneType":  "Cache",
+                                     "EnablePollutionProtection":  true,
+                                     "IgnorePolicies":  false,
+                                     "LockingPercent":  100,
+                                     "MaxKBSize":  0,
+                                     "MaxNegativeTtl":  {
+                                                            "Ticks":  9000000000,
+                                                            "Days":  0,
+                                                            "Hours":  0,
+                                                            "Milliseconds":  0,
+                                                            "Minutes":  15,
+                                                            "Seconds":  0,
+                                                            "TotalDays":  0.010416666666666666,
+                                                            "TotalHours":  0.25,
+                                                            "TotalMilliseconds":  900000,
+                                                            "TotalMinutes":  15,
+                                                            "TotalSeconds":  900
+                                                        },
+                                     "MaxTtl":  {
+                                                    "Ticks":  864000000000,
+                                                    "Days":  1,
+                                                    "Hours":  0,
+                                                    "Milliseconds":  0,
+                                                    "Minutes":  0,
+                                                    "Seconds":  0,
+                                                    "TotalDays":  1,
+                                                    "TotalHours":  24,
+                                                    "TotalMilliseconds":  86400000,
+                                                    "TotalMinutes":  1440,
+                                                    "TotalSeconds":  86400
+                                                },
+                                     "StoreEmptyAuthenticationResponse":  true
+                                 },
+                    "dnsResponseRateLimit":  {
+                                                 "ErrorsPerSec":  5,
+                                                 "IPv4PrefixLength":  24,
+                                                 "IPv6PrefixLength":  56,
+                                                 "LeakRate":  3,
+                                                 "MaximumResponsesPerWindow":  1024,
+                                                 "Mode":  "Disable",
+                                                 "ResponsesPerSec":  5,
+                                                 "TruncateRate":  2,
+                                                 "WindowInSec":  5
+                                             },
+                    "dnsResponseRateLimitException":  {
+
+                                                      },
+                    "dnsGlobalQueryBlockList":  {
+                                                    "Enable":  true,
+                                                    "List":  [
+                                                                 "wpad",
+                                                                 "isatap"
+                                                             ]
+                                                },
+                    "dnsEdns":  {
+                                    "CacheTimeout":  {
+                                                         "Ticks":  9000000000,
+                                                         "Days":  0,
+                                                         "Hours":  0,
+                                                         "Milliseconds":  0,
+                                                         "Minutes":  15,
+                                                         "Seconds":  0,
+                                                         "TotalDays":  0.010416666666666666,
+                                                         "TotalHours":  0.25,
+                                                         "TotalMilliseconds":  900000,
+                                                         "TotalMinutes":  15,
+                                                         "TotalSeconds":  900
+                                                     },
+                                    "EnableProbes":  true,
+                                    "EnableReception":  true
+                                },
+                    "dnsForwarder":  {
+                                         "EnableReordering":  true,
+                                         "IPAddress":  [
+                                                           {
+                                                               "value":  "10.0.2.3",
+                                                               "IPAddressToString":  "10.0.2.3"
+                                                           },
+                                                           {
+                                                               "value":  "8.8.8.8",
+                                                               "IPAddressToString":  "8.8.8.8"
+                                                           }
+                                                       ],
+                                         "ReorderedIPAddress":  [
+                                                                    {
+                                                                        "value":  "10.0.2.3",
+                                                                        "IPAddressToString":  "10.0.2.3"
+                                                                    },
+                                                                    {
+                                                                        "value":  "8.8.8.8",
+                                                                        "IPAddressToString":  "8.8.8.8"
+                                                                    }
+                                                                ],
+                                         "Timeout":  3,
+                                         "UseRootHint":  true
+                                     },
+                    "dnsScavenging":  {
+                                          "LastScavengeTime":  null,
+                                          "NoRefreshInterval":  {
+                                                                    "Ticks":  6048000000000,
+                                                                    "Days":  7,
+                                                                    "Hours":  0,
+                                                                    "Milliseconds":  0,
+                                                                    "Minutes":  0,
+                                                                    "Seconds":  0,
+                                                                    "TotalDays":  7,
+                                                                    "TotalHours":  168,
+                                                                    "TotalMilliseconds":  604800000,
+                                                                    "TotalMinutes":  10080,
+                                                                    "TotalSeconds":  604800
+                                                                },
+                                          "RefreshInterval":  {
+                                                                  "Ticks":  6048000000000,
+                                                                  "Days":  7,
+                                                                  "Hours":  0,
+                                                                  "Milliseconds":  0,
+                                                                  "Minutes":  0,
+                                                                  "Seconds":  0,
+                                                                  "TotalDays":  7,
+                                                                  "TotalHours":  168,
+                                                                  "TotalMilliseconds":  604800000,
+                                                                  "TotalMinutes":  10080,
+                                                                  "TotalSeconds":  604800
+                                                              },
+                                          "ScavengingInterval":  {
+                                                                     "Ticks":  0,
+                                                                     "Days":  0,
+                                                                     "Hours":  0,
+                                                                     "Milliseconds":  0,
+                                                                     "Minutes":  0,
+                                                                     "Seconds":  0,
+                                                                     "TotalDays":  0,
+                                                                     "TotalHours":  0,
+                                                                     "TotalMilliseconds":  0,
+                                                                     "TotalMinutes":  0,
+                                                                     "TotalSeconds":  0
+                                                                 },
+                                          "ScavengingState":  false
+                                      },
+                    "dnsClientSubnet":  {
+
+                                        },
+                    "PSComputerName":  "DC",
+                    "RunspaceId":  "b8900371-5603-461b-82ff-12c1390ecce2",
+                    "PSShowComputerName":  true
+                },
+    "infoDhcp":  {
+                     "dhcp1":  {
+                                   "ActivatePolicies":  true,
+                                   "ConflictDetectionAttempts":  0,
+                                   "DynamicBootp":  true,
+                                   "IsAuthorized":  false,
+                                   "IsDomainJoined":  true,
+                                   "NapEnabled":  false,
+                                   "NpsUnreachableAction":  "Full",
+                                   "RestoreStatus":  false
+                               },
+                     "dhcp2":  {
+                                   "ActivatePolicies":  true,
+                                   "Delay":  0,
+                                   "Description":  "",
+                                   "EndRange":  {
+                                                    "Address":  3355551936,
+                                                    "AddressFamily":  2,
+                                                    "ScopeId":  null,
+                                                    "IsIPv6Multicast":  false,
+                                                    "IsIPv6LinkLocal":  false,
+                                                    "IsIPv6SiteLocal":  false,
+                                                    "IsIPv6Teredo":  false,
+                                                    "IsIPv4MappedToIPv6":  false,
+                                                    "IPAddressToString":  "192.168.1.200"
+                                                },
+                                   "LeaseDuration":  {
+                                                         "Ticks":  864000000000,
+                                                         "Days":  1,
+                                                         "Hours":  0,
+                                                         "Milliseconds":  0,
+                                                         "Minutes":  0,
+                                                         "Seconds":  0,
+                                                         "TotalDays":  1,
+                                                         "TotalHours":  24,
+                                                         "TotalMilliseconds":  86400000,
+                                                         "TotalMinutes":  1440,
+                                                         "TotalSeconds":  86400
+                                                     },
+                                   "MaxBootpClients":  4294967295,
+                                   "Name":  "TestScope",
+                                   "NapEnable":  false,
+                                   "NapProfile":  "",
+                                   "ScopeId":  {
+                                                   "Address":  108736,
+                                                   "AddressFamily":  2,
+                                                   "ScopeId":  null,
+                                                   "IsIPv6Multicast":  false,
+                                                   "IsIPv6LinkLocal":  false,
+                                                   "IsIPv6SiteLocal":  false,
+                                                   "IsIPv6Teredo":  false,
+                                                   "IsIPv4MappedToIPv6":  false,
+                                                   "IPAddressToString":  "192.168.1.0"
+                                               },
+                                   "StartRange":  {
+                                                      "Address":  1677830336,
+                                                      "AddressFamily":  2,
+                                                      "ScopeId":  null,
+                                                      "IsIPv6Multicast":  false,
+                                                      "IsIPv6LinkLocal":  false,
+                                                      "IsIPv6SiteLocal":  false,
+                                                      "IsIPv6Teredo":  false,
+                                                      "IsIPv4MappedToIPv6":  false,
+                                                      "IPAddressToString":  "192.168.1.100"
+                                                  },
+                                   "State":  "Active",
+                                   "SubnetMask":  {
+                                                      "Address":  16777215,
+                                                      "AddressFamily":  2,
+                                                      "ScopeId":  null,
+                                                      "IsIPv6Multicast":  false,
+                                                      "IsIPv6LinkLocal":  false,
+                                                      "IsIPv6SiteLocal":  false,
+                                                      "IsIPv6Teredo":  false,
+                                                      "IsIPv4MappedToIPv6":  false,
+                                                      "IPAddressToString":  "255.255.255.0"
+                                                  },
+                                   "SuperscopeName":  "",
+                                   "Type":  "Dhcp"
+                               },
+                     "dhcp3":  {
+                                   "Free":  101,
+                                   "InUse":  0,
+                                   "Reserved":  0,
+                                   "Pending":  0,
+                                   "AddressesFree":  101,
+                                   "AddressesFreeOnPartnerServer":  null,
+                                   "AddressesFreeOnThisServer":  null,
+                                   "AddressesInUse":  0,
+                                   "AddressesInUseOnPartnerServer":  null,
+                                   "AddressesInUseOnThisServer":  null,
+                                   "PendingOffers":  0,
+                                   "PercentageInUse":  0,
+                                   "ReservedAddress":  0,
+                                   "ScopeId":  {
+                                                   "Address":  108736,
+                                                   "AddressFamily":  2,
+                                                   "ScopeId":  null,
+                                                   "IsIPv6Multicast":  false,
+                                                   "IsIPv6LinkLocal":  false,
+                                                   "IsIPv6SiteLocal":  false,
+                                                   "IsIPv6Teredo":  false,
+                                                   "IsIPv4MappedToIPv6":  false,
+                                                   "IPAddressToString":  "192.168.1.0"
+                                               },
+                                   "SuperscopeName":  ""
+                               },
+                     "PSComputerName":  "DC",
+                     "RunspaceId":  "b8900371-5603-461b-82ff-12c1390ecce2",
+                     "PSShowComputerName":  true
+                 },
+    "infoFs":  {
+                   "fileserver1":  [
+                                       {
+                                           "AvailabilityType":  {
+                                                                    "value":  0,
+                                                                    "Value":  "NonClustered"
+                                                                },
+                                           "CachingMode":  {
+                                                               "value":  1,
+                                                               "Value":  "Manual"
+                                                           },
+                                           "CATimeout":  0,
+                                           "CompressData":  false,
+                                           "ConcurrentUserLimit":  0,
+                                           "ContinuouslyAvailable":  false,
+                                           "CurrentUsers":  0,
+                                           "Description":  "Remote Admin",
+                                           "EncryptData":  false,
+                                           "FolderEnumerationMode":  {
+                                                                         "value":  1,
+                                                                         "Value":  "Unrestricted"
+                                                                     },
+                                           "IdentityRemoting":  false,
+                                           "Infrastructure":  false,
+                                           "LeasingMode":  {
+                                                               "value":  0,
+                                                               "Value":  "Full"
+                                                           },
+                                           "Name":  "ADMIN$",
+                                           "Path":  "C:\\Windows",
+                                           "Scoped":  false,
+                                           "ScopeName":  "*",
+                                           "SecurityDescriptor":  "O:SYG:SYD:(A;;GA;;;BA)(A;;GA;;;BO)(A;;GA;;;IU)",
+                                           "ShadowCopy":  false,
+                                           "ShareState":  {
+                                                              "value":  1,
+                                                              "Value":  "Online"
+                                                          },
+                                           "ShareType":  {
+                                                             "value":  0,
+                                                             "Value":  "FileSystemDirectory"
+                                                         },
+                                           "SmbInstance":  {
+                                                               "value":  0,
+                                                               "Value":  "Default"
+                                                           },
+                                           "Special":  true,
+                                           "Temporary":  false,
+                                           "Volume":  "\\\\?\\Volume{883ea626-bb33-4785-a9e1-15cb02dc6b4d}\\"
+                                       },
+                                       {
+                                           "AvailabilityType":  {
+                                                                    "value":  0,
+                                                                    "Value":  "NonClustered"
+                                                                },
+                                           "CachingMode":  {
+                                                               "value":  1,
+                                                               "Value":  "Manual"
+                                                           },
+                                           "CATimeout":  0,
+                                           "CompressData":  false,
+                                           "ConcurrentUserLimit":  0,
+                                           "ContinuouslyAvailable":  false,
+                                           "CurrentUsers":  0,
+                                           "Description":  "Default share",
+                                           "EncryptData":  false,
+                                           "FolderEnumerationMode":  {
+                                                                         "value":  1,
+                                                                         "Value":  "Unrestricted"
+                                                                     },
+                                           "IdentityRemoting":  false,
+                                           "Infrastructure":  false,
+                                           "LeasingMode":  {
+                                                               "value":  0,
+                                                               "Value":  "Full"
+                                                           },
+                                           "Name":  "C$",
+                                           "Path":  "C:\\",
+                                           "Scoped":  false,
+                                           "ScopeName":  "*",
+                                           "SecurityDescriptor":  "O:SYG:SYD:(A;;GA;;;BA)(A;;GA;;;BO)(A;;GA;;;IU)",
+                                           "ShadowCopy":  false,
+                                           "ShareState":  {
+                                                              "value":  1,
+                                                              "Value":  "Online"
+                                                          },
+                                           "ShareType":  {
+                                                             "value":  0,
+                                                             "Value":  "FileSystemDirectory"
+                                                         },
+                                           "SmbInstance":  {
+                                                               "value":  0,
+                                                               "Value":  "Default"
+                                                           },
+                                           "Special":  true,
+                                           "Temporary":  false,
+                                           "Volume":  "\\\\?\\Volume{883ea626-bb33-4785-a9e1-15cb02dc6b4d}\\"
+                                       },
+                                       {
+                                           "AvailabilityType":  {
+                                                                    "value":  0,
+                                                                    "Value":  "NonClustered"
+                                                                },
+                                           "CachingMode":  {
+                                                               "value":  1,
+                                                               "Value":  "Manual"
+                                                           },
+                                           "CATimeout":  0,
+                                           "CompressData":  false,
+                                           "ConcurrentUserLimit":  0,
+                                           "ContinuouslyAvailable":  false,
+                                           "CurrentUsers":  0,
+                                           "Description":  "Remote IPC",
+                                           "EncryptData":  false,
+                                           "FolderEnumerationMode":  {
+                                                                         "value":  1,
+                                                                         "Value":  "Unrestricted"
+                                                                     },
+                                           "IdentityRemoting":  false,
+                                           "Infrastructure":  false,
+                                           "LeasingMode":  {
+                                                               "value":  0,
+                                                               "Value":  "Full"
+                                                           },
+                                           "Name":  "IPC$",
+                                           "Path":  "",
+                                           "Scoped":  false,
+                                           "ScopeName":  "*",
+                                           "SecurityDescriptor":  "O:SYG:SYD:(A;;GA;;;BA)(A;;GA;;;BO)(A;;GA;;;IU)",
+                                           "ShadowCopy":  false,
+                                           "ShareState":  {
+                                                              "value":  1,
+                                                              "Value":  "Online"
+                                                          },
+                                           "ShareType":  {
+                                                             "value":  3,
+                                                             "Value":  "InterprocessCommunication"
+                                                         },
+                                           "SmbInstance":  {
+                                                               "value":  0,
+                                                               "Value":  "Default"
+                                                           },
+                                           "Special":  true,
+                                           "Temporary":  false,
+                                           "Volume":  null
+                                       },
+                                       {
+                                           "AvailabilityType":  {
+                                                                    "value":  0,
+                                                                    "Value":  "NonClustered"
+                                                                },
+                                           "CachingMode":  {
+                                                               "value":  1,
+                                                               "Value":  "Manual"
+                                                           },
+                                           "CATimeout":  0,
+                                           "CompressData":  false,
+                                           "ConcurrentUserLimit":  0,
+                                           "ContinuouslyAvailable":  false,
+                                           "CurrentUsers":  0,
+                                           "Description":  "Logon server share ",
+                                           "EncryptData":  false,
+                                           "FolderEnumerationMode":  {
+                                                                         "value":  1,
+                                                                         "Value":  "Unrestricted"
+                                                                     },
+                                           "IdentityRemoting":  false,
+                                           "Infrastructure":  false,
+                                           "LeasingMode":  {
+                                                               "value":  1,
+                                                               "Value":  "Shared"
+                                                           },
+                                           "Name":  "NETLOGON",
+                                           "Path":  "C:\\Windows\\SYSVOL\\sysvol\\insecure.cyb\\SCRIPTS",
+                                           "Scoped":  false,
+                                           "ScopeName":  "*",
+                                           "SecurityDescriptor":  "O:BAG:SYD:(A;;0x1200a9;;;WD)(A;;FA;;;BA)",
+                                           "ShadowCopy":  false,
+                                           "ShareState":  {
+                                                              "value":  1,
+                                                              "Value":  "Online"
+                                                          },
+                                           "ShareType":  {
+                                                             "value":  0,
+                                                             "Value":  "FileSystemDirectory"
+                                                         },
+                                           "SmbInstance":  {
+                                                               "value":  0,
+                                                               "Value":  "Default"
+                                                           },
+                                           "Special":  false,
+                                           "Temporary":  false,
+                                           "Volume":  "\\\\?\\Volume{883ea626-bb33-4785-a9e1-15cb02dc6b4d}\\"
+                                       },
+                                       {
+                                           "AvailabilityType":  {
+                                                                    "value":  0,
+                                                                    "Value":  "NonClustered"
+                                                                },
+                                           "CachingMode":  {
+                                                               "value":  1,
+                                                               "Value":  "Manual"
+                                                           },
+                                           "CATimeout":  0,
+                                           "CompressData":  false,
+                                           "ConcurrentUserLimit":  0,
+                                           "ContinuouslyAvailable":  false,
+                                           "CurrentUsers":  0,
+                                           "Description":  "Logon server share ",
+                                           "EncryptData":  false,
+                                           "FolderEnumerationMode":  {
+                                                                         "value":  1,
+                                                                         "Value":  "Unrestricted"
+                                                                     },
+                                           "IdentityRemoting":  false,
+                                           "Infrastructure":  false,
+                                           "LeasingMode":  {
+                                                               "value":  1,
+                                                               "Value":  "Shared"
+                                                           },
+                                           "Name":  "SYSVOL",
+                                           "Path":  "C:\\Windows\\SYSVOL\\sysvol",
+                                           "Scoped":  false,
+                                           "ScopeName":  "*",
+                                           "SecurityDescriptor":  "O:BAG:SYD:(A;;0x1200a9;;;WD)(A;;FA;;;BA)(A;;FA;;;AU)",
+                                           "ShadowCopy":  false,
+                                           "ShareState":  {
+                                                              "value":  1,
+                                                              "Value":  "Online"
+                                                          },
+                                           "ShareType":  {
+                                                             "value":  0,
+                                                             "Value":  "FileSystemDirectory"
+                                                         },
+                                           "SmbInstance":  {
+                                                               "value":  0,
+                                                               "Value":  "Default"
+                                                           },
+                                           "Special":  false,
+                                           "Temporary":  false,
+                                           "Volume":  "\\\\?\\Volume{883ea626-bb33-4785-a9e1-15cb02dc6b4d}\\"
+                                       }
+                                   ],
+                   "fileserver2":  {
+                                       "ObjectId":  "{1}\\\\DC\\root/Microsoft/Windows/Storage/Providers_v2\\WSP_FileServer.ObjectId='{a3d711c8-57a7-11ee-99c3-806e6f6e6963}:FS:smb|dc.insecure.cyb'",
+                                       "PassThroughClass":  null,
+                                       "PassThroughIds":  null,
+                                       "PassThroughNamespace":  null,
+                                       "PassThroughServer":  null,
+                                       "UniqueId":  "smb|dc.insecure.cyb",
+                                       "FileSharingProtocols":  "SMB",
+                                       "FileSharingProtocolVersions":  [
+                                                                           "SMB2",
+                                                                           "SMB3"
+                                                                       ],
+                                       "FriendlyName":  "dc",
+                                       "HealthStatus":  "Healthy",
+                                       "HostNames":  [
+                                                         "dc.insecure.cyb"
+                                                     ],
+                                       "OperationalStatus":  "OK",
+                                       "OtherOperationalStatusDescription":  null,
+                                       "SupportsContinuouslyAvailableFileShare":  false,
+                                       "SupportsFileShareCreation":  true
+                                   },
+                   "fileserver3":  {
+                                       "AnnounceComment":  "",
+                                       "AnnounceServer":  false,
+                                       "AsynchronousCredits":  512,
+                                       "AuditSmb1Access":  false,
+                                       "AutoDisconnectTimeout":  15,
+                                       "AutoShareServer":  true,
+                                       "AutoShareWorkstation":  true,
+                                       "CachedOpenLimit":  10,
+                                       "DisableSmbEncryptionOnSecureConnection":  true,
+                                       "DurableHandleV2TimeoutInSeconds":  180,
+                                       "EnableAuthenticateUserSharing":  false,
+                                       "EnableDownlevelTimewarp":  false,
+                                       "EnableForcedLogoff":  true,
+                                       "EnableLeasing":  true,
+                                       "EnableMultiChannel":  true,
+                                       "EnableOplocks":  true,
+                                       "EnableSecuritySignature":  true,
+                                       "EnableSMB1Protocol":  false,
+                                       "EnableSMB2Protocol":  true,
+                                       "EnableSMBQUIC":  true,
+                                       "EnableStrictNameChecking":  true,
+                                       "EncryptData":  false,
+                                       "EncryptionCiphers":  "AES_128_GCM, AES_128_CCM, AES_256_GCM, AES_256_CCM",
+                                       "IrpStackSize":  15,
+                                       "KeepAliveTime":  2,
+                                       "MaxChannelPerSession":  32,
+                                       "MaxMpxCount":  50,
+                                       "MaxSessionPerConnection":  16384,
+                                       "MaxThreadsPerQueue":  20,
+                                       "MaxWorkItems":  1,
+                                       "NullSessionPipes":  ",netlogon,samr,lsarpc",
+                                       "NullSessionShares":  "",
+                                       "OplockBreakWait":  35,
+                                       "PendingClientTimeoutInSeconds":  120,
+                                       "RejectUnencryptedAccess":  true,
+                                       "RequireSecuritySignature":  true,
+                                       "RestrictNamedpipeAccessViaQuic":  true,
+                                       "ServerHidden":  true,
+                                       "Smb2CreditsMax":  8192,
+                                       "Smb2CreditsMin":  512,
+                                       "SmbServerNameHardeningLevel":  0,
+                                       "TreatHostAsStableStorage":  false,
+                                       "ValidateAliasNotCircular":  true,
+                                       "ValidateShareScope":  true,
+                                       "ValidateShareScopeNotAliased":  true,
+                                       "ValidateTargetName":  true
+                                   },
+                   "PSComputerName":  "DC",
+                   "RunspaceId":  "b8900371-5603-461b-82ff-12c1390ecce2",
+                   "PSShowComputerName":  true
+               },
+    "infoADCS":  {
+                     "PersonalCerts":  [
+                                            {
+                                                  "Thumbprint":  "7E92B66BE51B79D8CE3FF25C15C2DF6AB8C7F2F2",
+                                                  "Subject":  "CN=Oracle Corporation, OU=VirtualBox, OU=Digital ID Class 3 - Microsoft Software Validation v2, O=Oracle Corporation, L=Redwood Shores, S=California, C=US"
+                                              },
+                                            {
+                                                "Thumbprint":  "BE36A4562FDLZKD323ADF445084ED656",
+                                                "Subject":  "CN=Thawte Timestamping CA, OU=Thawte Certification, O=Thawte, L=Durbanville, S=Western Cape, C=ZA"
+                                            }
+                                        ],
+                     "PersonalCertsExpireIn30":  [
+                                                    {
+                                                        "Thumbprint":  "CDD4EEAE6000E8234AP171E30148030C072",
+                                                        "Subject":  "CN=Microsoft Root Certificate Authority, DC=microsoft, DC=com"
+                                                    },
+                                                    {
+                                                        "Thumbprint":  "30656FCA8C48B1D98623A94B40A6BC98BD87BFAD",
+                                                        "Subject":  "CN=Oracle Corporation, OU=VirtualBox, O=Oracle Corporation, L=Redwood City, S=California, C=US"
+                                                    }
+                                                ],
+                     "PersonalCertsExpired":  [
+                                                {
+                                                    "Thumbprint":  "CDD4EEADKZKDKZDKZ30148030C072",
+                                                    "Subject":  "CN=Microsoft Root Certificate Authority, DC=microsoft, DC=com"
+                                                },
+                                                {
+                                                    "Thumbprint":  "BE36A4562FB2EEZPDKJDK3ADF445084ED656",
+                                                    "Subject":  "CN=Thawte Timestamping CA, OU=Thawte Certification, O=Thawte, L=Durbanville, S=Western Cape, C=ZA"
+                                                }
+                                            ],
+                     "RootCertsExpireIn30": [
+                                                {
+                                                    "Thumbprint":  "CDZDZ953AC7F40C3802C171E30148030C072",
+                                                    "Subject":  "CN=Microsoft Root Certificate Authority, DC=microsoft, DC=com"
+                                                },
+                                                {
+                                                    "Thumbprint":  "18F7C1FCC3090203FD5BAA2F861A754976C8DD25",
+                                                    "Subject":  "OU='NO LIABILITY ACCEPTED, (c)97 VeriSign, Inc.', OU=VeriSign Time Stamping Service Root, OU='VeriSign, Inc.', O=VeriSign Trust Network"
+                                                }
+                                            ],
+                     "RootCertsExpired":  [
+                                              {
+                                                  "Thumbprint":  "CDD4EEAE6000AC7F40C3802C171E30148030C072",
+                                                  "Subject":  "CN=Microsoft Root Certificate Authority, DC=microsoft, DC=com"
+                                              },
+                                              {
+                                                  "Thumbprint":  "BE36A4562FB2EE05DBB3D32323ADF445084ED656",
+                                                  "Subject":  "CN=Thawte Timestamping CA, OU=Thawte Certification, O=Thawte, L=Durbanville, S=Western Cape, C=ZA"
+                                              },
+                                              {
+                                                  "Thumbprint":  "A43489159A520F0D93D032CCAF37E7FE20A8B419",
+                                                  "Subject":  "CN=Microsoft Root Authority, OU=Microsoft Corporation, OU=Copyright (c) 1997 Microsoft Corp."
+                                              },
+                                              {
+                                                  "Thumbprint":  "7F88CD7223F3C813818C994614A89C99FA3B5247",
+                                                  "Subject":  "CN=Microsoft Authenticode(tm) Root Authority, O=MSFT, C=US"
+                                              },
+                                              {
+                                                  "Thumbprint":  "7E92B66BE51B79D8CE3FF25C15C2DF6AB8C7F2F2",
+                                                  "Subject":  "CN=Oracle Corporation, OU=VirtualBox, OU=Digital ID Class 3 - Microsoft Software Validation v2, O=Oracle Corporation, L=Redwood Shores, S=California, C=US"
+                                              },
+                                              {
+                                                  "Thumbprint":  "30656FCA8C48B1D98623A94B40A6BC98BD87BFAD",
+                                                  "Subject":  "CN=Oracle Corporation, OU=VirtualBox, O=Oracle Corporation, L=Redwood City, S=California, C=US"
+                                              },
+                                              {
+                                                  "Thumbprint":  "245C97DF7514E7CF2DF8BE72AE957B9E04741E85",
+                                                  "Subject":  "OU=Copyright (c) 1997 Microsoft Corp., OU=Microsoft Time Stamping Service Root, OU=Microsoft Corporation, O=Microsoft Trust Network"
+                                              },
+                                              {
+                                                  "Thumbprint":  "18F7C1FCC3090203FD5BAA2F861A754976C8DD25",
+                                                  "Subject":  "OU='NO LIABILITY ACCEPTED, (c)97 VeriSign, Inc.', OU=VeriSign Time Stamping Service Root, OU='VeriSign, Inc.', O=VeriSign Trust Network"
+                                              }
+                                          ],
+                     "PSComputerName":  "DC",
+                     "RunspaceId":  "b8900371-5603-461b-82ff-12c1390ecce2",
+                     "PSShowComputerName":  true
+                 }
+}

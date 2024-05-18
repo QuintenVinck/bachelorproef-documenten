@@ -3,13 +3,15 @@
 ## Demo Video
 https://github.com/QuintenVinck/bachelorproef-documenten/assets/79400592/646efcd8-ba8a-4e59-ae46-5c1f9cda24c2
 
-\
-\
+
+
 ## Overzicht met afbeeldingen
-<br>
+
+\
+
 ### Knop die script uitvoert in de applicatie
 ![vs_execute](https://github.com/QuintenVinck/bachelorproef-documenten/assets/79400592/341c9314-7fa9-4a1b-a2a2-289e614abcfd)
-<br>
+\
 ### 'Systeeminformatie' pagina zonder dat een systeem geselecteerd is
 ![vs_selector](https://github.com/QuintenVinck/bachelorproef-documenten/assets/79400592/ea127881-3e56-4ef9-9494-fb7afdd3d74e)
 <br>
